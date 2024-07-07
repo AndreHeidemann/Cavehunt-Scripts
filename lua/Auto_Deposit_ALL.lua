@@ -1,6 +1,4 @@
-function Game.talk(message, type)
-    gameTalk(message, type)
-end
+function Game.talk(message, type) gameTalk(message, type) end
 
 Enums.TalkTypes = {
     TALKTYPE_PRIVATE_PN = 12 -- talk to NPC
@@ -16,12 +14,8 @@ local function startConversationWithNpc()
 end
 
 -- Função principal para interação com o NPC
-function interactWithBanker()
-    startConversationWithNpc()
-end
+function interactWithBanker() startConversationWithNpc() end
 
 -- Chama a função principal para iniciar a interação
 -- interactWithBanker()
-
-
 

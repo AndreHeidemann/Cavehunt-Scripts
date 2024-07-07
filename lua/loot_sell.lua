@@ -1,16 +1,12 @@
 local loot_ids = {
-    44608,
-    3274,
-    3266,
-    44602,
-    3054, -- silver amulet
+    44608, 3274, 3266, 44602, 3054, -- silver amulet
     23529, -- ring of blue plasma
     23533, -- ring of red plasma
     23542, -- collar of blue plasma
     23544, -- collar of red plasma
     23529, -- ring of blue plasma
     23533, -- ring of red plasma
-    23531, --ring of green plasma
+    23531, -- ring of green plasma
     3085, -- dragon necklace
     3311, -- clerical mace
     7441, -- ice cube
@@ -925,7 +921,6 @@ local loot_ids = {
     3082, -- elven amulet
     3083, -- garlic necklace
     21170, -- gearwheel chain
-   
     21183, -- glooth amulet
     3013, -- golden amulet
     9303, -- leviathan's amulet
@@ -1264,183 +1259,142 @@ local loot_ids = {
     3350, -- bow
     3277, -- spear
     3267, -- dagger
-    3301, -- crowbar
+    3301 -- crowbar
 }
 
 local dont_sell = {
     -- 7443, -- bullseye potion
     -- 7439, -- berserk potion
     7440, -- mastermind potion
-
     --  IMBUIMENTS
     --  Skill de Club
     9657, -- cyclops toe
     22189, -- ogre nose ring
     10405, -- warmaster's wristguards
-
     -- Skill de Shield
     9641, -- piece of scarab shell
     11703, -- brimstone shell
     20199, -- frazzle skin
-
     -- Skill de Axe
     10196, -- orc tooth
     11447, -- battle stone
     21200, -- moohtant horn
-
     -- Skill de Magic Level (ML)
     9635, -- elvish talisman
     11452, -- broken shamanic staff
     11309, -- strand of medusa hair
-
     -- Skill de Distancia
     11464, -- elven scouting glass
     18994, -- elven hoof
     10298, -- metal spike
-
     -- Skill de Sword
     9691, -- lion's mane
     21202, -- mooh'tah shell
     9654, -- war crystal
-
     -- DANO ELEMENTAL
-
     -- Energy
     18993, -- rorc feather
     21975, -- peacock feather fan
     23508, -- energy vein
-
     -- Ice
     9661, -- frosty heart
     21801, -- seacrest hair
     9650, -- polar bear paw
-
     -- Death
     11484, -- Pile of Grave Earth
     9647, -- Demonic Skeletal Hand
     10420, -- Petrified Scream
-
     -- Fire
     9636, -- Fiery Heart
     5920, -- Green Dragon Scale
     5954, -- Demon Horn
-
     -- Earth
     9686, -- Swamp Grass
     9640, -- Poisonous Slime
     21194, -- Slime Heart
-
     -- PROTEÇÂO ELEMENTAL
-
     -- Energy
     9644, -- Wyvern Talisman
     14079, -- Crawler Head Plating
     9665, -- Wyrm Scale
-
-    --Holy
+    -- Holy
     9639, -- Cultish Robe
     9638, -- Cultish Mask
     10304, -- Hellspawn Tail
-
     -- Fire
     5877, -- Green Dragon Leather
     16131, -- Blazing Bone
     11658, -- Draken Sulphur
-
     -- Death
     11466, -- Flask of Embalming Fluid
     22007, -- Gloom Wolf Fur
     9660, -- Mystical Hourglass
-
     -- Ice
     10295, -- Winter Wolf Fur
     10307, -- Thick Fur
     14012, -- Deepling Warts
-
     -- Earth
     17823, -- Piece of Swampling Wood
     9694, -- Snake Skin
     11702, -- Brimstone Fangs
-
-
     -- SUPORTE
-
     -- Aumento de Capacidade
     25694, -- Fairy Wings
     25702, -- Little Bowl of Myrrh
     20205, -- Goosebump Leather
-
     -- Critico
     11444, -- Protective Charm
     10311, -- Sabretooth
     22728, -- Vexclaw Talon
-
     -- Velocidade
     17458, -- Damselfly Wing
     10302, -- Compass
     14081, -- Waspoid Wing
-
     -- Vampirismo
     9685, -- Vampire Teeth
     9633, -- Bloody Pincers
     9663, -- Piece of Dead Brain
-
     -- Remoção de Paralisia
     22053, -- Wereboar Hooves
     23507, -- Crystallized Anger
     28567, -- Quill
-
     -- Roubo de Mana
     11492, -- Rope Belt
     20200, -- Silencer Claws
     22730, -- Some Grimeleech Wings
-
     ----------- FIM DOS ITENS DE IMBUIMENT -----------
-
     -- Amuletos de proteção 20% e -10% de outro        
-
     -- Amuleto de proteção física + outra coisa
     3081, -- stone skin amulet    
     9303, -- leviathan's amulet
     9304, -- shockwave amulet
     16113, -- prismatic necklace
     16108, -- gill necklace
-
     -- Amuleto de proteção com life drain
     13990, -- necklace of the deep
     3083, -- garlic necklace
-
     -- Amuletos Básicos   
-
     -- Anéis de proteção física + outra coisa
     16114, -- prismatic ring
     32621, -- enchanted ring of souls
-
     -- Anéis Básicos
     3048, -- might ring    
     3097, -- dwarven ring
     31557, -- enchanted blister ring
-
     -----------  DROPS  -----------
-
     20063, -- dream matter
-
     23529, -- ring of blue plasma
     23533, -- ring of red plasma
     23542, -- collar of blue plasma
     23544, -- collar of red plasma
     23529, -- ring of blue plasma
     23533, -- ring of red plasma
-    23531, --ring of green plasma     
+    23531 -- ring of green plasma     
 }
 
 -- Função para verificar se um item está em uma lista
 local function isInList(item, list)
-    for _, value in ipairs(list) do
-        if value == item then
-            return true
-        end
-    end
+    for _, value in ipairs(list) do if value == item then return true end end
     return false
 end
 
@@ -1450,7 +1404,8 @@ local function sellItems()
     for _, item in ipairs(loot_ids) do
         if Game.getItemCount(item) > 0 and not isInList(item, dont_sell) then
             local amount = Game.getItemCount(item)
-            Client.showMessage("Selling item ID: " .. item .. ", amount: " .. amount)
+            Client.showMessage("Selling item ID: " .. item .. ", amount: " ..
+                                   amount)
             Npc.sell(item, amount, true)
             wait(1000)
             itemsSold = true
