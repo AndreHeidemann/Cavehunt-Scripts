@@ -29,4 +29,11 @@ settings.refillItems = {
     {id = 23373, minQuantity = 100, name = "Ultimate Mana Potion"}
     -- Adicione mais itens aqui conforme necessário
 }
-return settings
+-- Configuração do caitbox
+settings.caitBox = {
+    enabled = true,
+    maxAreaDistance = 8, -- Distância máxima para contar os monstros
+    monsterCountToContinue = 3, -- Quantidade de monstros minima para continuar para o proximo waypoint
+    ignoreMonsters = {} -- Lista de monstros para ignorar
+}        
+return settings   

@@ -1,257 +1,264 @@
 {
-  "autoRecorder": 10,
-  "forceWalkBlockableTilesAround": 3,
-  "ignoreLureList": [],
-  "maxLureLeave": 15,
-  "minLureStop": 15,
-  "minLureWalk": 30,
-  "nodeDistance": 1,
-  "startNearestWaypoint": false,
-  "waypoints": [
-    {
-      "data": "Hunt",
-      "waypointType": 9,
-      "x": 32611,
-      "y": 31731,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 2,
-      "x": 32611,
-      "y": 31731,
-      "z": 11
-    },
-    {
-      "data": "Box1",
-      "waypointType": 9,
-      "x": 32611,
-      "y": 31731,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32611,
-      "y": 31731,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32617,
-      "y": 31727,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32621,
-      "y": 31732,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32616,
-      "y": 31737,
-      "z": 11
-    },
-    {
-      "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\n\ncheckCaitBox(settings, \"Box1\")",
-      "waypointType": 11,
-      "x": 32616,
-      "y": 31737,
-      "z": 11
-    },
-    {
-      "data": "Box2",
-      "waypointType": 9,
-      "x": 32615,
-      "y": 31747,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32615,
-      "y": 31747,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32620,
-      "y": 31755,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32617,
-      "y": 31763,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32612,
-      "y": 31763,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32606,
-      "y": 31755,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32606,
-      "y": 31751,
-      "z": 11
-    },
-    {
-      "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\n\ncheckCaitBox(settings, \"Box2\")",
-      "waypointType": 11,
-      "x": 32606,
-      "y": 31751,
-      "z": 11
-    },
-    {
-      "data": "Box3",
-      "waypointType": 9,
-      "x": 32627,
-      "y": 31775,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32627,
-      "y": 31775,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32635,
-      "y": 31774,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32639,
-      "y": 31780,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32627,
-      "y": 31780,
-      "z": 11
-    },
-    {
-      "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\n\ncheckCaitBox(settings, \"Box3\")",
-      "waypointType": 11,
-      "x": 32627,
-      "y": 31780,
-      "z": 11
-    },
-    {
-      "data": "Box4",
-      "waypointType": 9,
-      "x": 32656,
-      "y": 31771,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32656,
-      "y": 31771,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32657,
-      "y": 31762,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32662,
-      "y": 31759,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32663,
-      "y": 31769,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32661,
-      "y": 31776,
-      "z": 11
-    },
-    {
-      "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\n\ncheckCaitBox(settings, \"Box4\")",
-      "waypointType": 11,
-      "x": 32656,
-      "y": 31771,
-      "z": 11
-    },
-    {
-      "data": "Box5",
-      "waypointType": 9,
-      "x": 32658,
-      "y": 31747,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32658,
-      "y": 31747,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32660,
-      "y": 31735,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32651,
-      "y": 31735,
-      "z": 11
-    },
-    {
-      "data": "",
-      "waypointType": 1,
-      "x": 32653,
-      "y": 31743,
-      "z": 11
-    },
-    {
-      "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\n\ncheckCaitBox(settings, \"Box5\")",
-      "waypointType": 11,
-      "x": 32658,
-      "y": 31747,
-      "z": 11
-    }
-  ]
+    "autoRecorder": 10,
+    "forceWalkBlockableTilesAround": 2,
+    "ignoreLureList": [],
+    "maxLureLeave": 15,
+    "minLureStop": 15,
+    "minLureWalk": 30,
+    "nodeDistance": 1,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Hunt",
+            "waypointType": 9,
+            "x": 32611,
+            "y": 31731,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 32611,
+            "y": 31731,
+            "z": 11
+        },
+        {
+            "data": "Box1",
+            "waypointType": 9,
+            "x": 32611,
+            "y": 31731,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32611,
+            "y": 31731,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32617,
+            "y": 31727,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32621,
+            "y": 31732,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32616,
+            "y": 31737,
+            "z": 11
+        },
+        {
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box1\")",
+            "waypointType": 11,
+            "x": 32616,
+            "y": 31737,
+            "z": 11
+        },
+        {
+            "data": "Box2",
+            "waypointType": 9,
+            "x": 32615,
+            "y": 31747,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32615,
+            "y": 31747,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32620,
+            "y": 31755,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32617,
+            "y": 31763,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32612,
+            "y": 31763,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32606,
+            "y": 31755,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32606,
+            "y": 31751,
+            "z": 11
+        },
+        {
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box2\")",
+            "waypointType": 11,
+            "x": 32606,
+            "y": 31751,
+            "z": 11
+        },
+        {
+            "data": "Box3",
+            "waypointType": 9,
+            "x": 32627,
+            "y": 31775,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32627,
+            "y": 31775,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32635,
+            "y": 31774,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32639,
+            "y": 31780,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32627,
+            "y": 31780,
+            "z": 11
+        },
+        {
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box3\")",
+            "waypointType": 11,
+            "x": 32627,
+            "y": 31780,
+            "z": 11
+        },
+        {
+            "data": "Box4",
+            "waypointType": 9,
+            "x": 32656,
+            "y": 31771,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32656,
+            "y": 31771,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32657,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32662,
+            "y": 31759,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32663,
+            "y": 31769,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32661,
+            "y": 31776,
+            "z": 11
+        },
+        {
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box4\")",
+            "waypointType": 11,
+            "x": 32656,
+            "y": 31771,
+            "z": 11
+        },
+        {
+            "data": "Box5",
+            "waypointType": 9,
+            "x": 32658,
+            "y": 31747,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32658,
+            "y": 31747,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32660,
+            "y": 31735,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32651,
+            "y": 31735,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32653,
+            "y": 31743,
+            "z": 11
+        },
+        {
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box5\")",
+            "waypointType": 11,
+            "x": 32658,
+            "y": 31747,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 32611,
+            "y": 31731,
+            "z": 11
+        }
+    ]
 }
