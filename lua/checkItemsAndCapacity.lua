@@ -1,6 +1,5 @@
 -- -- Configurações
 -- local MinCapacityConfig = 1200 -- Quantidade mínima de CAP para continuar a hunt
-
 -- -- Lista de itens para verificar
 -- refillItems = {
 --     {id = 3161, minQuantity = 200, name = "Avalanche Rune"},
@@ -10,17 +9,16 @@
 --     {id = 35901, minQuantity = 650, name = "Diamond Arrow"},
 --     -- Adicione mais itens aqui conforme necessário
 -- }
-
 function showMessage(message)
     print(message)
     Client.showMessage(message)
 end
 
 -- Função para verificar a quantidade de itens e capacidade
-function checkItemsAndCapacity(refillItems,MinCapacityConfig)
+function checkItemsAndCapacity(refillItems, MinCapacityConfig)
     local needsRefill = false
     local cap = Player.getCapacity()
-    
+
     if cap < MinCapacityConfig * 100 then
         needsRefill = true
     else
@@ -32,7 +30,7 @@ function checkItemsAndCapacity(refillItems,MinCapacityConfig)
             end
         end
     end
-    
+
     if needsRefill then
         CaveBot.GoTo('LeaveHunt')
         showMessage("Saindo da hunt para refillar.")
@@ -44,5 +42,4 @@ end
 
 -- Chamada da função
 -- checkItemsAndCapacity(refillItems,MinCapacityConfig)
-
 
