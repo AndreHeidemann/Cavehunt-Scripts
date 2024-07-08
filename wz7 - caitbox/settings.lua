@@ -34,7 +34,7 @@ settings.refillItems = {
 settings.caitBox = {
     enabled = true,
     maxAreaDistance = 8, -- Distância máxima para contar os monstros
-    monsterCountToContinue = 4, -- Quantidade de monstros minima para continuar para o proximo waypoint
+    monsterCountToContinue = 5, -- Quantidade de monstros minima para continuar para o proximo waypoint
     ignoreMonsters = {} -- Lista de monstros para ignorar
 }
 
