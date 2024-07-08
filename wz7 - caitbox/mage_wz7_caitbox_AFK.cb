@@ -1748,169 +1748,302 @@
         {
             "data": "",
             "waypointType": 1,
-            "x": 32615,
+            "x": 32614,
+            "y": 31729,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32617,
             "y": 31727,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32623,
-            "y": 31727,
+            "x": 32622,
+            "y": 31728,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32620,
-            "y": 31733,
+            "y": 31731,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32617,
+            "x": 32619,
+            "y": 31734,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32616,
             "y": 31737,
-            "z": 11
-        },
-        {
-            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box1\")",
-            "waypointType": 11,
-            "x": 32617,
-            "y": 31737,
-            "z": 11
-        },
-        {
-            "data": "Box2",
-            "waypointType": 9,
-            "x": 32615,
-            "y": 31749,
-            "z": 11
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 32615,
-            "y": 31749,
-            "z": 11
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 32610,
-            "y": 31751,
-            "z": 11
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 32605,
-            "y": 31754,
-            "z": 11
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 32611,
-            "y": 31759,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32612,
-            "y": 31763,
+            "y": 31734,
             "z": 11
         },
         {
-            "data": "",
-            "waypointType": 1,
-            "x": 32618,
-            "y": 31763,
-            "z": 11
-        },
-        {
-            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box2\")",
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box1\")",
             "waypointType": 11,
-            "x": 32618,
-            "y": 31763,
+            "x": 32612,
+            "y": 31734,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32626,
-            "y": 31774,
-            "z": 11
-        },
-        {
-            "data": "Box3",
-            "waypointType": 9,
-            "x": 32627,
-            "y": 31775,
+            "x": 32611,
+            "y": 31731,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32635,
-            "y": 31773,
+            "x": 32614,
+            "y": 31729,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32617,
+            "y": 31727,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32622,
+            "y": 31728,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32633,
+            "y": 31724,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32631,
+            "y": 31730,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32633,
+            "y": 31733,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32637,
+            "y": 31737,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32638,
+            "y": 31738,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32639,
-            "y": 31780,
+            "y": 31740,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32630,
-            "y": 31778,
+            "x": 32640,
+            "y": 31742,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32625,
-            "y": 31780,
-            "z": 11
-        },
-        {
-            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box3\")",
-            "waypointType": 11,
-            "x": 32625,
-            "y": 31780,
+            "x": 32640,
+            "y": 31744,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32641,
-            "y": 31779,
+            "x": 32640,
+            "y": 31746,
             "z": 11
         },
         {
-            "data": "Box4",
+            "data": "",
+            "waypointType": 1,
+            "x": 32642,
+            "y": 31748,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32642,
+            "y": 31750,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32644,
+            "y": 31752,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32645,
+            "y": 31755,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32645,
+            "y": 31759,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32645,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32645,
+            "y": 31764,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32643,
+            "y": 31766,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32648,
+            "y": 31771,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32651,
+            "y": 31772,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32656,
+            "y": 31772,
+            "z": 11
+        },
+        {
+            "data": "Box2",
             "waypointType": 9,
             "x": 32656,
-            "y": 31771,
+            "y": 31772,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32656,
-            "y": 31771,
+            "y": 31770,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32661,
-            "y": 31776,
+            "x": 32656,
+            "y": 31768,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32656,
+            "y": 31766,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32657,
+            "y": 31764,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32658,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32660,
+            "y": 31760,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32662,
+            "y": 31760,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32663,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32663,
+            "y": 31764,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32663,
+            "y": 31766,
             "z": 11
         },
         {
@@ -1924,126 +2057,287 @@
             "data": "",
             "waypointType": 1,
             "x": 32663,
-            "y": 31760,
+            "y": 31771,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32659,
-            "y": 31760,
+            "x": 32663,
+            "y": 31773,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32661,
+            "y": 31775,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32658,
+            "y": 31774,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32656,
-            "y": 31765,
+            "y": 31772,
             "z": 11
         },
         {
-            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box4\")",
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box2\")",
             "waypointType": 11,
             "x": 32656,
-            "y": 31771,
+            "y": 31772,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32651,
-            "y": 31771,
+            "y": 31772,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32648,
+            "y": 31774,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32646,
-            "y": 31768,
+            "y": 31777,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32645,
-            "y": 31763,
+            "x": 32640,
+            "y": 31780,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32645,
-            "y": 31757,
+            "x": 32637,
+            "y": 31781,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32644,
-            "y": 31753,
-            "z": 11
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 32642,
-            "y": 31749,
-            "z": 11
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 32639,
-            "y": 31744,
-            "z": 11
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 32638,
-            "y": 31739,
+            "x": 32634,
+            "y": 31780,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32635,
-            "y": 31735,
+            "y": 31777,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 32632,
-            "y": 31730,
+            "x": 32635,
+            "y": 31775,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32633,
-            "y": 31724,
+            "y": 31775,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32630,
+            "y": 31775,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32627,
+            "y": 31774,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32624,
-            "y": 31727,
+            "y": 31772,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32622,
+            "y": 31770,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32621,
+            "y": 31768,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32620,
-            "y": 31734,
+            "y": 31765,
             "z": 11
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 32617,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32612,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32610,
+            "y": 31757,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32605,
+            "y": 31755,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32605,
+            "y": 31751,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32610,
+            "y": 31751,
+            "z": 11
+        },
+        {
+            "data": "Box3",
+            "waypointType": 9,
+            "x": 32615,
+            "y": 31750,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32615,
+            "y": 31750,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32618,
+            "y": 31753,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32619,
+            "y": 31756,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32617,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32612,
+            "y": 31762,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32610,
+            "y": 31757,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32605,
+            "y": 31755,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32605,
+            "y": 31751,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32610,
+            "y": 31751,
+            "z": 11
+        },
+        {
+            "data": "dofile(\"../Cavehunt-Scripts/lua/caitbox.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/wz7 - caitbox/settings.lua\")()\n\ncheckCaitBox(settings, \"Box3\")",
+            "waypointType": 11,
+            "x": 32610,
+            "y": 31751,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32615,
+            "y": 31750,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32616,
             "y": 31737,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32612,
+            "y": 31734,
             "z": 11
         },
         {
