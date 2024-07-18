@@ -1,23 +1,45 @@
 local settings = {}
 -- Supply a comprar
 settings.itemsToBuy = {
-    -- Poções de vida
-    {id = 23375, name = "Supreme Health Potion", amount = 0},
-    {id = 7643, name = "Ultimate Health Potion", amount = 0},
-    {id = 239, name = "Great Health Potion", amount = 0},
-    {id = 236, name = "Strong Health Potion", amount = 0}, -- Poções de mana
-    {id = 23373, name = "Ultimate Mana Potion", amount = 700},
-    {id = 238, name = "Great Mana Potions", amount = 0},
-    {id = 237, name = "Strong Mana Potions", amount = 0},
+    -- HP
+    {name = "Supreme Health Potion", id = 23375, vocation = {"knight"}, amount = 0, type = 'potions'},
+    {name = "Ultimate Health Potion", id = 7643, vocation = {"knight"}, amount = 0, type = 'potions'},
+    {name = "Great Health Potion", id = 239, vocation = {"knight"}, amount = 0, type = 'potions'},
+    {name = "Strong Health Potion", id = 236, vocation = {"knight","paladin"}, amount = 0, type = 'potions'},
+    -- MANA
+    {name = "Ultimate Mana Potion", id = 23373, vocation = {"sorcerer","druid"}, amount = 0, type = 'potions'},
+    {name = "Great Mana Potion", id = 238, vocation = {"paladin","sorcerer","druid"}, amount = 0, type = 'potions'},
+    {name = "Strong Mana Potion", id = 237, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'potions'},    
+    -- SPIRIT
+    {name = "Ultimate spirit Potion", id = 23374, vocation = {"paladin"}, amount = 0, type = 'potions'},
+    {name = "Great Spirit Potion", id = 7642, vocation = {"paladin"}, amount = 0, type = 'potions'},
+    -- RUNES
+    {name = "Great Fireball Rune", id = 3191, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
+    {name = "Avalanche Rune", id = 3161, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
+    {name = "ThunderStorm Rune", id = 3202, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
+    {name = "Stone Shower Rune", id = 3175, vocation = {"paladin","sorcerer","druid"}, amount = 0, type = 'runes'},		
+    {name = "Ultimate Healing Rune", id = 3160, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
+    {name = "Sudden Death Rune", id = 3155, vocation = {"paladin","sorcerer","druid"}, amount = 0, type = 'runes'}	
+}
 
-    -- Poções de espírito
-    {id = 23374, name = "Ultimate Spirit Potions", amount = 0},
-    {id = 7642, name = "Great Spirit Potions", amount = 0}, -- Runas
-    {id = 3191, name = "Great Fireball Rune", amount = 0},
-    {id = 3161, name = "Avalanche Rune", amount = 1000},
-    {id = 3202, name = "ThunderStorm Rune", amount = 0},
-    {id = 3160, name = "Ultimate Healing Rune", amount = 0},
-    {id = 3155, name = "Sudden Death Rune", amount = 200}
+-- IF PALADIN = true
+if(Creature(Player.getId()):getVocation()== Enums.Vocations.PALADIN) then
+    settings.paladin = true
+else
+    settings.paladin = false
+end
+
+settings.forgeConvertDust = true
+settings.forgeConvertSlivers = true
+settings.forgeIncreaseLimit = true
+
+ -- Quantidade mínima de CAP para continuar a hunt
+
+settings.distanceToBuy = {
+    -- DISTANCE
+    {name = "Diamond Arrow", amount = 0, id = 35901, vocation = {"paladin"}, type = 'distance'},
+    {name = "Spectral Bolt", amount = 0, id = 35902, vocation = {"paladin"}, type = 'distance'},
+    {name = "Crystalline Arrow", amount = 0, id = 15793, vocation = {"paladin"}, type = 'distance'},
 }
 
 -- Check to refill
@@ -25,15 +47,35 @@ settings.MinCapacityConfig = 1200 -- Quantidade mínima de CAP para continuar a 
 
 -- Lista de itens para verificar
 settings.refillItems = {
-    {id = 3161, minQuantity = 200, name = "Avalanche Rune"},
-    {id = 23373, minQuantity = 100, name = "Ultimate Mana Potion"}
-    -- Adicione mais itens aqui conforme necessário
+    -- HP
+    {name = "Supreme Health Potion", id = 23375, minQuantity = 0, check = false},
+    {name = "Ultimate Health Potion", id = 7643, minQuantity = 0, check = false},
+    {name = "Great Health Potion", id = 239, minQuantity = 0, check = false},
+    {name = "Strong Health Potion", id = 236, minQuantity = 0, check = false},
+    -- MANA
+    {name = "Ultimate Mana Potion", id = 23373, minQuantity = 100, check = true},
+    {name = "Great Mana Potion", id = 238, minQuantity = 0, check = false},
+    {name = "Strong Mana Potion", id = 237, minQuantity = 0, check = false},    
+    -- SPIRIT
+    {name = "Ultimate spirit Potion", id = 23374, minQuantity = 0, check = false},
+    {name = "Great Spirit Potion", id = 7642, minQuantity = 0, check = false},
+    -- RUNES
+    {name = "Great Fireball Rune", id = 3191, minQuantity = 0, check = false},
+    {name = "Avalanche Rune", id = 3161, minQuantity = 150, check = true},
+    {name = "ThunderStorm Rune", id = 3202, minQuantity = 0, check = false},
+    {name = "Stone Shower Rune", id = 3175, minQuantity = 0, check = false},		
+    {name = "Ultimate Healing Rune", id = 3160, minQuantity = 0, check = false},
+    {name = "Sudden Death Rune", id = 3155, minQuantity = 0, check = false},
+    -- DISTANCE
+    {name = "Diamond Arrow", id = 35901, minQuantity = 0, check = false},
+    {name = "Spectral Bolt", id = 35902, minQuantity = 0, check = false},
+    {name = "Crystalline Arrow", id = 15793, minQuantity = 0, check = false}
 }
 -- Configuração do caitbox
 settings.caitBox = {
     enabled = true,
     maxAreaDistance = 8, -- Distância máxima para contar os monstros
-    monsterCountToContinue = 3, -- Quantidade de monstros minima para continuar para o proximo waypoint
+    monsterCountToContinue = 5, -- Quantidade de monstros minima para continuar para o proximo waypoint
     ignoreMonsters = {} -- Lista de monstros para ignorar
 }
     

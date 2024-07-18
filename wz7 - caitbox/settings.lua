@@ -6,7 +6,7 @@ settings.itemsToBuy = {
     -- {id = 7643, name = "Ultimate Health Potion", amount = 0},
     -- {id = 239, name = "Great Health Potion", amount = 0},
     -- {id = 236, name = "Strong Health Potion", amount = 0}, -- Poções de mana
-    {id = 23373, name = "Ultimate Mana Potion", amount = 300},
+    {id = 23373, name = "Ultimate Mana Potion", amount = 200},
     -- {id = 238, name = "Great Mana Potions", amount = 0},
     -- {id = 237, name = "Strong Mana Potions", amount = 0},
 
@@ -25,7 +25,7 @@ settings.MinCapacityConfig = 1400 -- Quantidade mínima de CAP para continuar a 
 
 -- Lista de itens para verificar
 settings.refillItems = {
-    {id = 23373, minQuantity = 150, name = "Ultimate Mana Potion"},    
+    {id = 23373, minQuantity = 100, name = "Ultimate Mana Potion"},    
     {id = 3161, minQuantity = 150, name = "Avalanche Rune"},            
     -- {id = 3191, minQuantity = 150, name = "Great Fireball Rune"}
     -- Adicione mais itens aqui conforme necessário

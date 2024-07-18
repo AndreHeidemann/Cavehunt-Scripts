@@ -1,0 +1,970 @@
+{
+    "autoRecorder": 3,
+    "forceWalkBlockableTilesAround": 0,
+    "ignoreLureList": [
+    ],
+    "maxLureLeave": 1,
+    "minLureStop": 3,
+    "minLureWalk": 3,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 1,
+    "specialAreas": [
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Temple",
+            "waypointType": 9,
+            "x": 32649,
+            "y": 31925,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32649,
+            "y": 31925,
+            "z": 11
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\adventurer_label.lua\")",
+            "waypointType": 11,
+            "x": 32649,
+            "y": 31925,
+            "z": 11
+        },
+        {
+            "data": "Adventurer1",
+            "waypointType": 9,
+            "x": 31605,
+            "y": 32413,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31605,
+            "y": 32413,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 31597,
+            "y": 32414,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "waypointType": 11,
+            "x": 31597,
+            "y": 32414,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31596,
+            "y": 32410,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "waypointType": 11,
+            "x": 31596,
+            "y": 32410,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31605,
+            "y": 32412,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31613,
+            "y": 32408,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 31613,
+            "y": 32398,
+            "z": 7
+        },
+        {
+            "data": "CaveBot.GoTo('Dust')",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "Adventurer2",
+            "waypointType": 9,
+            "x": 31605,
+            "y": 32484,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31605,
+            "y": 32484,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 31597,
+            "y": 32485,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "waypointType": 11,
+            "x": 31597,
+            "y": 32485,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31596,
+            "y": 32481,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "waypointType": 11,
+            "x": 31596,
+            "y": 32481,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31605,
+            "y": 32483,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 31613,
+            "y": 32469,
+            "z": 7
+        },
+        {
+            "data": "CaveBot.GoTo('Dust')",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "Adventurer3",
+            "waypointType": 9,
+            "x": 31692,
+            "y": 32413,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31692,
+            "y": 32413,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 31684,
+            "y": 32414,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "waypointType": 11,
+            "x": 31684,
+            "y": 32414,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31683,
+            "y": 32410,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "waypointType": 11,
+            "x": 31683,
+            "y": 32410,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31692,
+            "y": 32412,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 31700,
+            "y": 32398,
+            "z": 7
+        },
+        {
+            "data": "CaveBot.GoTo('Dust')",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "Adventurer4",
+            "waypointType": 9,
+            "x": 31692,
+            "y": 32484,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31692,
+            "y": 32484,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 31684,
+            "y": 32485,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "waypointType": 11,
+            "x": 31684,
+            "y": 32485,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31683,
+            "y": 32481,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "waypointType": 11,
+            "x": 31683,
+            "y": 32481,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31692,
+            "y": 32483,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 31700,
+            "y": 32469,
+            "z": 7
+        },
+        {
+            "data": "CaveBot.GoTo('Dust')",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "Adventurer5",
+            "waypointType": 9,
+            "x": 31779,
+            "y": 32413,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31779,
+            "y": 32413,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 31771,
+            "y": 32414,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "waypointType": 11,
+            "x": 31771,
+            "y": 32414,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31770,
+            "y": 32410,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "waypointType": 11,
+            "x": 31770,
+            "y": 32410,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31779,
+            "y": 32412,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 31787,
+            "y": 32398,
+            "z": 7
+        },
+        {
+            "data": "CaveBot.GoTo('Dust')",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "Adventurer6",
+            "waypointType": 9,
+            "x": 31779,
+            "y": 32484,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31779,
+            "y": 32484,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 31771,
+            "y": 32485,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "waypointType": 11,
+            "x": 31771,
+            "y": 32485,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31770,
+            "y": 32481,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "waypointType": 11,
+            "x": 31770,
+            "y": 32481,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 31779,
+            "y": 32483,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 31787,
+            "y": 32469,
+            "z": 7
+        },
+        {
+            "data": "CaveBot.GoTo('Dust')",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "Adventurer7",
+            "waypointType": 9,
+            "x": 32200,
+            "y": 32296,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32200,
+            "y": 32296,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32192,
+            "y": 32297,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "waypointType": 11,
+            "x": 32192,
+            "y": 32297,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32191,
+            "y": 32293,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "waypointType": 11,
+            "x": 32191,
+            "y": 32293,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32200,
+            "y": 32295,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 32208,
+            "y": 32281,
+            "z": 7
+        },
+        {
+            "data": "CaveBot.GoTo('Dust')",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "Dust",
+            "waypointType": 9,
+            "x": 32177,
+            "y": 32274,
+            "z": 8
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 32178,
+            "y": 32269,
+            "z": 8
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32177,
+            "y": 32275,
+            "z": 11
+        },
+        {
+            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\ndofile(\"../Cavehunt-Scripts/lua_v2/deliveryDust.lua\")\ndeliveryDust(settings)",
+            "waypointType": 11,
+            "x": 32177,
+            "y": 32275,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 32176,
+            "y": 32280,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32177,
+            "y": 32275,
+            "z": 8
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32205,
+            "y": 32295,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32202,
+            "y": 32299,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32207,
+            "y": 32297,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 32209,
+            "y": 32292,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32649,
+            "y": 31925,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32642,
+            "y": 31925,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32635,
+            "y": 31924,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32631,
+            "y": 31920,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 7,
+            "x": 32632,
+            "y": 31920,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32648,
+            "y": 31907,
+            "z": 8
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\deposit_all.lua\")",
+            "waypointType": 11,
+            "x": 32648,
+            "y": 31907,
+            "z": 8
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32654,
+            "y": 31901,
+            "z": 8
+        },
+        {
+            "data": "",
+            "waypointType": 7,
+            "x": 32653,
+            "y": 31901,
+            "z": 8
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32672,
+            "y": 31978,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32665,
+            "y": 31973,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32663,
+            "y": 31968,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32659,
+            "y": 31963,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32659,
+            "y": 31957,
+            "z": 15
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\boat_travel.lua\")\ntravelDialog(\"Farmine\")",
+            "waypointType": 11,
+            "x": 32659,
+            "y": 31957,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33025,
+            "y": 31548,
+            "z": 10
+        },
+        {
+            "data": "itemsToBuy",
+            "waypointType": 9,
+            "x": 33025,
+            "y": 31548,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33017,
+            "y": 31542,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33010,
+            "y": 31538,
+            "z": 10
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\openDoor.lua\")\nopenDoor(7714)",
+            "waypointType": 11,
+            "x": 33010,
+            "y": 31538,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33010,
+            "y": 31534,
+            "z": 10
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\nbuySupplies(settings.itemsToBuy)",
+            "waypointType": 11,
+            "x": 33010,
+            "y": 31534,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33010,
+            "y": 31536,
+            "z": 10
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\openDoor.lua\")\nopenDoor(7714)",
+            "waypointType": 11,
+            "x": 33010,
+            "y": 31536,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33017,
+            "y": 31542,
+            "z": 10
+        },
+        {
+            "data": "if(Creature(Player.getId()):getVocation()== Enums.Vocations.PALADIN) then\n    CaveBot.GoTo('distanceToBuy')\nelse\n    CaveBot.GoTo('goHunt')\nend",
+            "waypointType": 11,
+            "x": 33017,
+            "y": 31542,
+            "z": 10
+        },
+        {
+            "data": "distanceToBuy",
+            "waypointType": 9,
+            "x": 33017,
+            "y": 31542,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33025,
+            "y": 31538,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33032,
+            "y": 31537,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33037,
+            "y": 31537,
+            "z": 10
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\openDoor.lua\")\nopenDoor(7714)",
+            "waypointType": 11,
+            "x": 33037,
+            "y": 31537,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33037,
+            "y": 31541,
+            "z": 10
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\nbuySupplies(settings.distanceToBuy)",
+            "waypointType": 11,
+            "x": 33037,
+            "y": 31541,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33037,
+            "y": 31539,
+            "z": 10
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\openDoor.lua\")\nopenDoor(7714)",
+            "waypointType": 11,
+            "x": 33037,
+            "y": 31539,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33032,
+            "y": 31537,
+            "z": 10
+        },
+        {
+            "data": "goHunt",
+            "waypointType": 9,
+            "x": 33025,
+            "y": 31548,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33025,
+            "y": 31548,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33025,
+            "y": 31553,
+            "z": 10
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\boat_travel.lua\")\ntravelDialog(\"cormaya\")",
+            "waypointType": 11,
+            "x": 33025,
+            "y": 31553,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33310,
+            "y": 31988,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33310,
+            "y": 31993,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33311,
+            "y": 31997,
+            "z": 15
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33309,
+            "y": 31996,
+            "z": 14
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33311,
+            "y": 31997,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33309,
+            "y": 31996,
+            "z": 12
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33311,
+            "y": 31997,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33309,
+            "y": 31996,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33311,
+            "y": 31997,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33309,
+            "y": 31996,
+            "z": 8
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33310,
+            "y": 32000,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33318,
+            "y": 32001,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33325,
+            "y": 31995,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33326,
+            "y": 31991,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33333,
+            "y": 31988,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33346,
+            "y": 31984,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33356,
+            "y": 31986,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\boat_travel.lua\")\ntravelDialog(\"passage\")",
+            "waypointType": 11,
+            "x": 33710,
+            "y": 32602,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33713,
+            "y": 32602,
+            "z": 6
+        }
+    ]
+}
