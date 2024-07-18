@@ -34,9 +34,11 @@ function checkItemsAndCapacity(refillItems, MinCapacityConfig)
     if needsRefill then
         CaveBot.GoTo('LeaveHunt')
         showMessage("Saindo da hunt para refillar.")
+        wait(1000)
     else
         CaveBot.GoTo('Hunt')
         showMessage("Supply suficiente para continuar hunt.")
+        wait(1000)
     end
 end
 

@@ -2,21 +2,21 @@ local settings = {}
 -- Supply a comprar
 settings.itemsToBuy = {
     -- Poções de vida
-    {id = 23375, name = "Supreme Health Potion", amount = 0},
-    {id = 7643, name = "Ultimate Health Potion", amount = 0},
-    {id = 239, name = "Great Health Potion", amount = 0},
-    {id = 236, name = "Strong Health Potion", amount = 0}, -- Poções de mana
-    {id = 23373, name = "Ultimate Mana Potion", amount = 450},
-    {id = 238, name = "Great Mana Potions", amount = 0},
-    {id = 237, name = "Strong Mana Potions", amount = 0},
+    -- {id = 23375, name = "Supreme Health Potion", amount = 0},
+    -- {id = 7643, name = "Ultimate Health Potion", amount = 0},
+    -- {id = 239, name = "Great Health Potion", amount = 0},
+    -- {id = 236, name = "Strong Health Potion", amount = 0}, -- Poções de mana
+    {id = 23373, name = "Ultimate Mana Potion", amount = 300},
+    -- {id = 238, name = "Great Mana Potions", amount = 0},
+    -- {id = 237, name = "Strong Mana Potions", amount = 0},
 
     -- Poções de espírito
-    {id = 23374, name = "Ultimate Spirit Potions", amount = 0},
-    {id = 7642, name = "Great Spirit Potions", amount = 0}, -- Runas
-    {id = 3191, name = "Great Fireball Rune", amount = 700}, --ms
-    -- {id = 3161, name = "Avalanche Rune", amount = 700}, --ed
-    {id = 3202, name = "ThunderStorm Rune", amount = 0},
-    {id = 3160, name = "Ultimate Healing Rune", amount = 0},
+    -- {id = 23374, name = "Ultimate Spirit Potions", amount = 0},
+    -- {id = 7642, name = "Great Spirit Potions", amount = 0}, -- Runas
+    -- {id = 3191, name = "Great Fireball Rune", amount = 600}, --ms
+    {id = 3161, name = "Avalanche Rune", amount = 700}, --ed
+    -- {id = 3202, name = "ThunderStorm Rune", amount = 0},
+    -- {id = 3160, name = "Ultimate Healing Rune", amount = 0},
     {id = 3155, name = "Sudden Death Rune", amount = 100}
 }
 
@@ -25,11 +25,9 @@ settings.MinCapacityConfig = 1400 -- Quantidade mínima de CAP para continuar a 
 
 -- Lista de itens para verificar
 settings.refillItems = {
-    {id = 23373, minQuantity = 100, name = "Ultimate Mana Potion"},
-    -- ed
-    -- {id = 3161, minQuantity = 200, name = "Avalanche Rune"},        
-    --ms
-    {id = 3191, minQuantity = 200, name = "Great Fireball Rune"}
+    {id = 23373, minQuantity = 150, name = "Ultimate Mana Potion"},    
+    {id = 3161, minQuantity = 150, name = "Avalanche Rune"},            
+    -- {id = 3191, minQuantity = 150, name = "Great Fireball Rune"}
     -- Adicione mais itens aqui conforme necessário
 }
 

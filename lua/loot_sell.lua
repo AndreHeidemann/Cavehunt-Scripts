@@ -1389,7 +1389,8 @@ local dont_sell = {
     23544, -- collar of red plasma
     23529, -- ring of blue plasma
     23533, -- ring of red plasma
-    23531 -- ring of green plasma     
+    23531, -- ring of green plasma
+    23543 -- collar of green plasma     
 }
 
 -- Função para verificar se um item está em uma lista
@@ -1407,7 +1408,7 @@ local function sellItems()
             Client.showMessage("Selling item ID: " .. item .. ", amount: " ..
                                    amount)
             Npc.sell(item, amount, true)
-            wait(1000)
+            wait(1500)
             itemsSold = true
         end
     end

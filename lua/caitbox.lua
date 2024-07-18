@@ -1,3 +1,7 @@
+Engine.enableTargeting(true) -- AutoATK
+Engine.enableMagicShooter(true) -- Magias
+Engine.enableEquipment(true) --Equipment
+
 local function getDistance(pos1, pos2)
     local x = math.abs(pos1.x - pos2.x)
     local y = math.abs(pos1.y - pos2.y)
