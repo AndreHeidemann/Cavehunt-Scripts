@@ -1,4 +1,12 @@
 local settings = {}
+-- O que fazer com a dust
+-- fazer sliver das dust
+settings.forgeConvertDust = true
+-- transformar sliver em exalted core
+settings.forgeConvertSlivers = true
+-- aumentar o limite de dust
+settings.forgeIncreaseLimit = true
+
 -- Supply a comprar
 settings.itemsToBuy = {
     -- HP
@@ -7,7 +15,7 @@ settings.itemsToBuy = {
     {name = "Great Health Potion", id = 239, vocation = {"knight"}, amount = 0, type = 'potions'},
     {name = "Strong Health Potion", id = 236, vocation = {"knight","paladin"}, amount = 0, type = 'potions'},
     -- MANA
-    {name = "Ultimate Mana Potion", id = 23373, vocation = {"sorcerer","druid"}, amount = 0, type = 'potions'},
+    {name = "Ultimate Mana Potion", id = 23373, vocation = {"sorcerer","druid"}, amount = 200, type = 'potions'},
     {name = "Great Mana Potion", id = 238, vocation = {"paladin","sorcerer","druid"}, amount = 0, type = 'potions'},
     {name = "Strong Mana Potion", id = 237, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'potions'},    
     -- SPIRIT
@@ -15,23 +23,12 @@ settings.itemsToBuy = {
     {name = "Great Spirit Potion", id = 7642, vocation = {"paladin"}, amount = 0, type = 'potions'},
     -- RUNES
     {name = "Great Fireball Rune", id = 3191, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
-    {name = "Avalanche Rune", id = 3161, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
+    {name = "Avalanche Rune", id = 3161, vocation = {"knight","paladin","sorcerer","druid"}, amount = 700, type = 'runes'},
     {name = "ThunderStorm Rune", id = 3202, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
     {name = "Stone Shower Rune", id = 3175, vocation = {"paladin","sorcerer","druid"}, amount = 0, type = 'runes'},		
     {name = "Ultimate Healing Rune", id = 3160, vocation = {"knight","paladin","sorcerer","druid"}, amount = 0, type = 'runes'},
-    {name = "Sudden Death Rune", id = 3155, vocation = {"paladin","sorcerer","druid"}, amount = 0, type = 'runes'}	
+    {name = "Sudden Death Rune", id = 3155, vocation = {"paladin","sorcerer","druid"}, amount = 100, type = 'runes'}	
 }
-
--- IF PALADIN = true
-if(Creature(Player.getId()):getVocation()== Enums.Vocations.PALADIN) then
-    settings.paladin = true
-else
-    settings.paladin = false
-end
-
-settings.forgeConvertDust = true
-settings.forgeConvertSlivers = true
-settings.forgeIncreaseLimit = true
 
  -- Quantidade mínima de CAP para continuar a hunt
 

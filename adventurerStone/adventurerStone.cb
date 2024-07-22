@@ -29,7 +29,7 @@
             "z": 11
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\adventurer_label.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\adventurer_label.lua\")",
             "waypointType": 11,
             "x": 32649,
             "y": 31925,
@@ -57,7 +57,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\loot_sell.lua\")",
             "waypointType": 11,
             "x": 31597,
             "y": 32414,
@@ -71,7 +71,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\enchantItems.lua\")",
             "waypointType": 11,
             "x": 31596,
             "y": 32410,
@@ -127,7 +127,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\loot_sell.lua\")",
             "waypointType": 11,
             "x": 31597,
             "y": 32485,
@@ -141,7 +141,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\enchantItems.lua\")",
             "waypointType": 11,
             "x": 31596,
             "y": 32481,
@@ -190,7 +190,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\loot_sell.lua\")",
             "waypointType": 11,
             "x": 31684,
             "y": 32414,
@@ -204,7 +204,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\enchantItems.lua\")",
             "waypointType": 11,
             "x": 31683,
             "y": 32410,
@@ -253,7 +253,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\loot_sell.lua\")",
             "waypointType": 11,
             "x": 31684,
             "y": 32485,
@@ -267,7 +267,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\enchantItems.lua\")",
             "waypointType": 11,
             "x": 31683,
             "y": 32481,
@@ -316,7 +316,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\loot_sell.lua\")",
             "waypointType": 11,
             "x": 31771,
             "y": 32414,
@@ -330,7 +330,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\enchantItems.lua\")",
             "waypointType": 11,
             "x": 31770,
             "y": 32410,
@@ -379,7 +379,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\loot_sell.lua\")",
             "waypointType": 11,
             "x": 31771,
             "y": 32485,
@@ -393,7 +393,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\enchantItems.lua\")",
             "waypointType": 11,
             "x": 31770,
             "y": 32481,
@@ -442,7 +442,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\loot_sell.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\loot_sell.lua\")",
             "waypointType": 11,
             "x": 32192,
             "y": 32297,
@@ -456,7 +456,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua_v2\\\\enchantItems.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\enchantItems.lua\")",
             "waypointType": 11,
             "x": 32191,
             "y": 32293,
@@ -505,7 +505,7 @@
             "z": 11
         },
         {
-            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\ndofile(\"../Cavehunt-Scripts/lua_v2/deliveryDust.lua\")\ndeliveryDust(settings)",
+            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/ingol2/settings.lua\")()\ndofile(\"../Cavehunt-Scripts/lua/deliveryDust.lua\")\ndeliveryDust(settings)",
             "waypointType": 11,
             "x": 32177,
             "y": 32275,

@@ -1,0 +1,364 @@
+{
+    "autoRecorder": 3,
+    "forceWalkBlockableTilesAround": 0,
+    "ignoreLureList": [
+    ],
+    "maxLureLeave": 1,
+    "minLureStop": 3,
+    "minLureWalk": 3,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 1,
+    "specialAreas": [
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 1,
+            "width": 1,
+            "x": 32054,
+            "y": 31882,
+            "z": 6
+        }
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Client.sendHotkey(16777216, 0)\nwait(1000)",
+            "waypointType": 11,
+            "x": 32069,
+            "y": 31901,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32068,
+            "y": 31895,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32061,
+            "y": 31894,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32056,
+            "y": 31890,
+            "z": 5
+        },
+        {
+            "data": "Client.sendHotkey(16777216, 0)\nwait(1000)",
+            "waypointType": 11,
+            "x": 32056,
+            "y": 31890,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32053,
+            "y": 31890,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32050,
+            "y": 31892,
+            "z": 5
+        },
+        {
+            "data": "HuntDawnport",
+            "waypointType": 9,
+            "x": 32049,
+            "y": 31890,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32046,
+            "y": 31890,
+            "z": 6
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\task_full\\\\checkDawnport.lua\")",
+            "waypointType": 11,
+            "x": 32046,
+            "y": 31890,
+            "z": 6
+        },
+        {
+            "data": "LeaveDawnport",
+            "waypointType": 9,
+            "x": 32046,
+            "y": 31890,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32050,
+            "y": 31890,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32056,
+            "y": 31890,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32063,
+            "y": 31889,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32064,
+            "y": 31892,
+            "z": 6
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\task_full\\\\becomeSorcerer.lua\")",
+            "waypointType": 11,
+            "x": 32064,
+            "y": 31892,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32054,
+            "y": 31883,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 7,
+            "x": 32054,
+            "y": 31882,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32054,
+            "y": 31880,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32051,
+            "y": 31879,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32048,
+            "y": 31879,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32044,
+            "y": 31879,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32037,
+            "y": 31879,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32033,
+            "y": 31877,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 32031,
+            "y": 31872,
+            "z": 6
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\task_full\\\\sailDarashia.lua\")",
+            "waypointType": 11,
+            "x": 32031,
+            "y": 31872,
+            "z": 6
+        },
+        {
+            "data": "Darashia",
+            "waypointType": 9,
+            "x": 33289,
+            "y": 32481,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33289,
+            "y": 32481,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33289,
+            "y": 32476,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33293,
+            "y": 32473,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33290,
+            "y": 32471,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33283,
+            "y": 32468,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33276,
+            "y": 32468,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33269,
+            "y": 32467,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33264,
+            "y": 32462,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33257,
+            "y": 32458,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33250,
+            "y": 32458,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33243,
+            "y": 32458,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33236,
+            "y": 32458,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33229,
+            "y": 32457,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33222,
+            "y": 32457,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33218,
+            "y": 32452,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33218,
+            "y": 32447,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33218,
+            "y": 32442,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33219,
+            "y": 32437,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33221,
+            "y": 32432,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33219,
+            "y": 32423,
+            "z": 7
+        },
+        {
+            "data": "Game.talk(\"hi\", 12) \nwait(1000)\nGame.talk(\"trade\", 12) \nwait(3000) \nNpc.buy(3457, 1, false, false)",
+            "waypointType": 11,
+            "x": 33219,
+            "y": 32423,
+            "z": 7
+        }
+    ]
+}
