@@ -63,49 +63,52 @@ function sayBalance()
 end
 
 -- Função de verificação da mensagem de texto
-function checkBalance(authorName, authorLevel, messageType, x, y, z, text)        
-    if(string.match(text, "balance is (%d+) gold.")) then          
-        if(getMainForPlayer(Player.getName())~= nil) then        
-            if isNameInTable(authorName, bankNames) then
-                -- Verifica se a mensagem contém o saldo da conta            
-                local tempBalance = string.match(text, "balance is (%d+) gold.")                
-                local tempBalance = tonumber(tempBalance)                
-                balance = tempBalance                
-                local limite_minimo = 500000
-                -- Calcule o valor a ser enviado
-                local valorEnviar = balance * 0.9
+function checkBalance(authorName, authorLevel, messageType, x, y, z, text)
+    if(string.match(text, "balance is (%d+) gold.")) then
+        if isNameInTable(authorName, bankNames) then
+            -- Verifica se a mensagem contém o saldo da conta            
+            local tempBalance = string.match(text, "balance is (%d+) gold.")                
+            local tempBalance = tonumber(tempBalance)                
+            balance = tempBalance                
+            local limite_minimo = 500000
+            -- Calcule o valor a ser enviado
+            local valorEnviar = balance * 0.9
 
-                -- Verifique se o saldo menos o valor a ser enviado é menor que o limite mínimo
-                if balance - valorEnviar < limite_minimo then
-                    valorEnviar = balance - limite_minimo
-                    if valorEnviar<=0 then 
-                        valorEnviar=0
-                    end
+            -- Verifique se o saldo menos o valor a ser enviado é menor que o limite mínimo
+            if balance - valorEnviar < limite_minimo then
+                valorEnviar = balance - limite_minimo
+                if valorEnviar<=0 then 
+                    valorEnviar=0
                 end
-                if balance then                
-                    if valorEnviar>0 then
-                        Game.talk("transfer", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
-                        wait(2000) -- Aguarda 1 segundo                    
-                        Game.talk(valorEnviar, Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
-                        wait(2000) -- Aguarda 1 segundo
-                        Game.talk(getMainForPlayer(Player.getName()), Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
-                        wait(2000) -- Aguarda 1 segundo
-                        Game.talk("yes", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
-                        wait(2000) -- Aguarda 1 segundo                           
-                    end
-                    Engine.enableCaveBot(true)
-                    wait(5000)
-                    Engine.unloadScript(currentFileName)
-                end
+            end
+            if balance then                
+                if valorEnviar>0 then
+                    Game.talk("transfer", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
+                    wait(2000) -- Aguarda 1 segundo                    
+                    Game.talk(valorEnviar, Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
+                    wait(2000) -- Aguarda 1 segundo
+                    Game.talk(getMainForPlayer(Player.getName()), Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
+                    wait(2000) -- Aguarda 1 segundo
+                    Game.talk("yes", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
+                    wait(2000) -- Aguarda 1 segundo                           
+                end                    
             end
         end
     end
+    Engine.enableCaveBot(true)
+    wait(5000)
+    Engine.unloadScript(currentFileName)
 end
 
 -- Check if the current file starts with Scripts/
-if currentFilePath:match("Scripts/") then    
-    Game.registerEvent(Game.Events.TALK, checkBalance)
-    sayBalance()
+if currentFilePath:match("Scripts/") then       
+    if(getMainForPlayer(Player.getName())~= nil) then
+        Game.registerEvent(Game.Events.TALK, checkBalance)
+        sayBalance()
+    else
+        Engine.enableCaveBot(true)        
+        Engine.unloadScript(currentFileName)
+    end    
 else
     -- We need to copy the current file to the scriptsDirectory and execute it
     local currentFile = io.open(scriptsDirectory:match("(.*)/") ..

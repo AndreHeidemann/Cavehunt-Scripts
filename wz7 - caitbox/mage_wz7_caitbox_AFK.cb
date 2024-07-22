@@ -6,8 +6,13 @@
     "maxLureLeave": 15,
     "minLureStop": 15,
     "minLureWalk": 30,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
     "nodeDistance": 1,
-    "startNearestWaypoint": true,
+    "specialAreas": [
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
     "waypoints": [
         {
             "data": "Temple",
@@ -619,7 +624,7 @@
             "z": 8
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\deposit_all.lua\")",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\deposit_all.lua\")\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\transferMain.lua\")",
             "waypointType": 11,
             "x": 32649,
             "y": 31907,
