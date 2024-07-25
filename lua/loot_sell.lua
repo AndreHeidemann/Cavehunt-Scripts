@@ -1263,6 +1263,10 @@ local loot_ids = {
 }
 
 local dont_sell = {
+    13993, -- ornate chestplate
+    13999, -- ornate legs
+    14000, -- ornate shield
+
     -- 7443, -- bullseye potion
     -- 7439, -- berserk potion
     7440, -- mastermind potion
@@ -1270,10 +1274,10 @@ local dont_sell = {
     --  Skill de Club
     9657, -- cyclops toe
     22189, -- ogre nose ring
-    10405, -- warmaster's wristguards
+    -- 10405, -- warmaster's wristguards
     -- Skill de Shield
     9641, -- piece of scarab shell
-    11703, -- brimstone shell
+    -- 11703, -- brimstone shell
     20199, -- frazzle skin
     -- Skill de Axe
     10196, -- orc tooth

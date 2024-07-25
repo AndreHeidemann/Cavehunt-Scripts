@@ -1,0 +1,116 @@
+{
+    "autoRecorder": 3,
+    "forceWalkBlockableTilesAround": 3,
+    "ignoreLureList": [
+    ],
+    "maxLureLeave": 15,
+    "minLureStop": 15,
+    "minLureWalk": 30,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 1,
+    "specialAreas": [
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Hunt",
+            "waypointType": 9,
+            "x": 34005,
+            "y": 31055,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 34005,
+            "y": 31055,
+            "z": 9
+        },
+        {
+            "data": "Engine.enableCaveBot(false)\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\checkRaid.lua\")",
+            "waypointType": 11,
+            "x": 34005,
+            "y": 31055,
+            "z": 9
+        },
+        {
+            "data": "LeaveRaid",
+            "waypointType": 9,
+            "x": 34005,
+            "y": 31055,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 34005,
+            "y": 31061,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 34002,
+            "y": 31072,
+            "z": 9
+        },
+        {
+            "data": "Engine.enableMagicShooter(false)\nEngine.enableTargeting(false)",
+            "waypointType": 11,
+            "x": 34005,
+            "y": 31055,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 34002,
+            "y": 31075,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 34010,
+            "y": 31017,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 34012,
+            "y": 31031,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 34012,
+            "y": 31041,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 34012,
+            "y": 31056,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 34011,
+            "y": 31062,
+            "z": 9
+        },
+        {
+            "data": "CaveBot.GoTo(\"Hunt\")",
+            "waypointType": 11,
+            "x": 34005,
+            "y": 31055,
+            "z": 9
+        }
+    ]
+}

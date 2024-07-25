@@ -32,8 +32,9 @@ local bankNames = {
     "Znozel"
 }
 local makers = {
-    {maker = "Keriel", main = "Non Pvp Hell"},
-    {maker = "Trigido Falafino", main = "Non Pvp Again"}
+    {maker = "Keriel", main = "Non Pvp Hell"},--exilium    
+    {maker = "Arthion", main = "Non Pvp Again"},--Arcadian
+    {maker = "Fenex", main = "Delo Vim Derrubaraqui"}--celestian
 }
 
 function getMainForPlayer(playerName)
@@ -54,8 +55,7 @@ function isNameInTable(name, table)
     return false
 end
 
-function sayBalance()
-    Engine.enableCaveBot(false)
+function sayBalance()    
     Game.talk("hi", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
     wait(1000) -- Aguarda 1 segundo
     Game.talk("balance", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)    
@@ -95,6 +95,7 @@ function checkBalance(authorName, authorLevel, messageType, x, y, z, text)
             end
         end
     end
+    CaveBot.selectWaypoint(CaveBot.getSelectedWaypointId() + 1)
     Engine.enableCaveBot(true)
     wait(5000)
     Engine.unloadScript(currentFileName)
@@ -106,10 +107,11 @@ if currentFilePath:match("Scripts/") then
         Game.registerEvent(Game.Events.TALK, checkBalance)
         sayBalance()
     else
+        CaveBot.selectWaypoint(CaveBot.getSelectedWaypointId() + 1)
         Engine.enableCaveBot(true)        
         Engine.unloadScript(currentFileName)
     end    
-else
+else    
     -- We need to copy the current file to the scriptsDirectory and execute it
     local currentFile = io.open(scriptsDirectory:match("(.*)/") ..
                                     "/Cavehunt-Scripts/" .. currentFilePath, "r")
@@ -143,4 +145,5 @@ else
     wait(1000)
 
     Engine.loadScript(currentFileName)
+    Engine.enableCaveBot(false)    
 end
