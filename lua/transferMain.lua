@@ -32,21 +32,31 @@ local bankNames = {
     "Znozel"
 }
 local makers = {
-    {maker = "Keriel", main = "Non Pvp Hell"},--exilium    
-    {maker = "Arthion", main = "Non Pvp Again"},--Arcadian
-    {maker = "Fenex", main = "Delo Vim Derrubaraqui"}--celestian
+    { maker = "Keriel",       main = "Non Pvp Hell",          minAmount = 500000 },  --exilium
+    { maker = "Arthion",      main = "Non Pvp Again",         minAmount = 500000 },  --Arcadian
+    { maker = "Fenex",        main = "Delo Vim Derrubaraqui", minAmount = 2000000 }, --celestian
+    { maker = "Dread Reaper", main = "Non Pvp Again",         minAmount = 2000000 }  --Arcadian
 }
 
-function getMainForPlayer(playerName)
+local function getMainForPlayer(playerName)
     for _, record in ipairs(makers) do
         if string.lower(playerName) == string.lower(record.maker) then
             return string.lower(record.main)
         end
     end
     return nil -- Retorna nil se não encontrar uma correspondência
-end   
+end
 
-function isNameInTable(name, table)
+local function getMinBalanceAmountForMaker(playerName)
+    for _, record in ipairs(makers) do
+        if string.lower(playerName) == string.lower(record.maker) then
+            return record.minAmount
+        end
+    end
+    return nil -- Retorna nil se não encontrar uma correspondência
+end
+
+local function isNameInTable(name, table)
     for _, value in ipairs(table) do
         if value == name then
             return true
@@ -55,43 +65,44 @@ function isNameInTable(name, table)
     return false
 end
 
-function sayBalance()    
+local function sayBalance()
     Game.talk("hi", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
     wait(1000) -- Aguarda 1 segundo
-    Game.talk("balance", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)    
+    Game.talk("balance", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
     wait(1000) -- Aguarda 1 segundo
 end
 
 -- Função de verificação da mensagem de texto
-function checkBalance(authorName, authorLevel, messageType, x, y, z, text)
-    if(string.match(text, "balance is (%d+) gold.")) then
+local function checkBalance(authorName, authorLevel, messageType, x, y, z, text)
+    if (string.match(text, "balance is (%d+) gold.")) then
         if isNameInTable(authorName, bankNames) then
-            -- Verifica se a mensagem contém o saldo da conta            
-            local tempBalance = string.match(text, "balance is (%d+) gold.")                
-            local tempBalance = tonumber(tempBalance)                
-            balance = tempBalance                
-            local limite_minimo = 500000
+            -- Verifica se a mensagem contém o saldo da conta
+            local tempBalance = string.match(text, "balance is (%d+) gold.")
+            local tempBalance = tonumber(tempBalance)
+            balance = tempBalance
+            local charName = Player.getName()
+            local limite_minimo = getMinBalanceAmountForMaker(charName)
             -- Calcule o valor a ser enviado
             local valorEnviar = balance * 0.9
 
             -- Verifique se o saldo menos o valor a ser enviado é menor que o limite mínimo
             if balance - valorEnviar < limite_minimo then
                 valorEnviar = balance - limite_minimo
-                if valorEnviar<=0 then 
-                    valorEnviar=0
+                if valorEnviar <= 0 then
+                    valorEnviar = 0
                 end
             end
-            if balance then                
-                if valorEnviar>0 then
+            if balance then
+                if valorEnviar > 0 then
                     Game.talk("transfer", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
-                    wait(2000) -- Aguarda 1 segundo                    
+                    wait(2000) -- Aguarda 1 segundo
                     Game.talk(valorEnviar, Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
                     wait(2000) -- Aguarda 1 segundo
-                    Game.talk(getMainForPlayer(Player.getName()), Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
+                    Game.talk(getMainForPlayer(charName), Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
                     wait(2000) -- Aguarda 1 segundo
                     Game.talk("yes", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)
-                    wait(2000) -- Aguarda 1 segundo                           
-                end                    
+                    wait(2000) -- Aguarda 1 segundo
+                end
             end
         end
     end
@@ -102,19 +113,19 @@ function checkBalance(authorName, authorLevel, messageType, x, y, z, text)
 end
 
 -- Check if the current file starts with Scripts/
-if currentFilePath:match("Scripts/") then       
-    if(getMainForPlayer(Player.getName())~= nil) then
+if currentFilePath:match("Scripts/") then
+    if (getMainForPlayer(Player.getName()) ~= nil) then
         Game.registerEvent(Game.Events.TALK, checkBalance)
         sayBalance()
     else
         CaveBot.selectWaypoint(CaveBot.getSelectedWaypointId() + 1)
-        Engine.enableCaveBot(true)        
+        Engine.enableCaveBot(true)
         Engine.unloadScript(currentFileName)
-    end    
-else    
+    end
+else
     -- We need to copy the current file to the scriptsDirectory and execute it
     local currentFile = io.open(scriptsDirectory:match("(.*)/") ..
-                                    "/Cavehunt-Scripts/" .. currentFilePath, "r")
+        "/Cavehunt-Scripts/" .. currentFilePath, "r")
 
     if currentFile == nil then
         print("Error: Could not open file " .. currentFilePath)
@@ -145,5 +156,5 @@ else
     wait(1000)
 
     Engine.loadScript(currentFileName)
-    Engine.enableCaveBot(false)    
+    Engine.enableCaveBot(false)
 end

@@ -1,9 +1,9 @@
 -- Função para abrir a janela de negociação com o NPC
 function openTradeWindow()
-    Game.talk("hi", 12) -- Fala com o NPC para abrir a janela de negociação
-    wait(1000) -- Aguarda um tempo para a janela abrir
+    Game.talk("hi", 12)    -- Fala com o NPC para abrir a janela de negociação
+    wait(1000)             -- Aguarda um tempo para a janela abrir
     Game.talk("trade", 12) -- Abre a janela de negociação
-    wait(3000) -- Aguarda um tempo para a janela abrir
+    wait(3000)             -- Aguarda um tempo para a janela abrir
 end
 
 -- Função para comprar itens
@@ -16,16 +16,16 @@ function buyItems(item)
         local success = Npc.buy(item.id, neededCount, false, false) -- Utiliza Shopping Bag para a compra
         if success then
             Client.showMessage("Compradas: " .. neededCount .. " " .. item.name ..
-                            " (ID " .. item.id .. ")")
+                " (ID " .. item.id .. ")")
         else
             Client.showMessage(
                 "Erro ao comprar: " .. neededCount .. " " .. item.name ..
-                    " (ID " .. item.id .. ")")
+                " (ID " .. item.id .. ")")
             return -- Retorna para evitar a mensagem "Compra de suprimentos concluída"
         end
     else
         Client.showMessage("Quantidade suficiente de " .. item.name .. " (ID " ..
-                        item.id .. ")")
+            item.id .. ")")
     end
 end
 
@@ -63,6 +63,27 @@ function buySupplies(itemsToBuy)
         wait(2000) -- Atraso de 2 segundos
     end
     Client.showMessage("Supply suficiente, parando compras.")
+end
+
+-- Função que verifica e compra supply em loop com delay de 2 segundos
+function onlyPotions(itemsToBuy)
+    local potionsToBuy = {}
+    for i = 1, #itemsToBuy do
+        if itemsToBuy[i].type == "potions" then
+            table.insert(potionsToBuy, itemsToBuy[i])
+        end
+    end
+    return potionsToBuy
+end
+
+function onlyRunes(itemsToBuy)
+    local runesToBuy = {}
+    for i = 1, #itemsToBuy do
+        if itemsToBuy[i].type == "runes" then
+            table.insert(runesToBuy, itemsToBuy[i])
+        end
+    end
+    return runesToBuy
 end
 
 -- Execute a função principal para compra de suprimentos ao carregar o script

@@ -6,6 +6,8 @@ settings.forgeConvertDust = false
 settings.forgeConvertSlivers = true
 -- aumentar o limite de dust
 settings.forgeIncreaseLimit = true
+-- BP para stashar no depot
+settings.idBpToStash = 23721
 
 -- Supply a comprar
 settings.itemsToBuy = {
@@ -15,15 +17,15 @@ settings.itemsToBuy = {
     { name = "Great Health Potion",    id = 239,   vocation = { "knight" },                                 amount = 0,   type = 'potions' },
     { name = "Strong Health Potion",   id = 236,   vocation = { "knight", "paladin" },                      amount = 0,   type = 'potions' },
     -- MANA
-    { name = "Ultimate Mana Potion",   id = 23373, vocation = { "sorcerer", "druid" },                      amount = 400, type = 'potions' },
+    { name = "Ultimate Mana Potion",   id = 23373, vocation = { "sorcerer", "druid" },                      amount = 250, type = 'potions' },
     { name = "Great Mana Potion",      id = 238,   vocation = { "paladin", "sorcerer", "druid" },           amount = 0,   type = 'potions' },
     { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,   type = 'potions' },
     -- SPIRIT
     { name = "Ultimate spirit Potion", id = 23374, vocation = { "paladin" },                                amount = 0,   type = 'potions' },
     { name = "Great Spirit Potion",    id = 7642,  vocation = { "paladin" },                                amount = 0,   type = 'potions' },
     -- RUNES
-    { name = "Great Fireball Rune",    id = 3191,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 600, type = 'runes' },
-    { name = "Avalanche Rune",         id = 3161,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,   type = 'runes' },
+    -- { name = "Great Fireball Rune",    id = 3191,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 600, type = 'runes' },
+    { name = "Avalanche Rune",         id = 3161,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 750, type = 'runes' },
     { name = "ThunderStorm Rune",      id = 3202,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,   type = 'runes' },
     { name = "Stone Shower Rune",      id = 3175,  vocation = { "paladin", "sorcerer", "druid" },           amount = 0,   type = 'runes' },
     { name = "Ultimate Healing Rune",  id = 3160,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,   type = 'runes' },
@@ -57,8 +59,8 @@ settings.refillItems = {
     { name = "Ultimate spirit Potion", id = 23374, minQuantity = 0,   check = false },
     { name = "Great Spirit Potion",    id = 7642,  minQuantity = 0,   check = false },
     -- RUNES
-    { name = "Great Fireball Rune",    id = 3191,  minQuantity = 150, check = true },
-    -- {name = "Avalanche Rune", id = 3161, minQuantity = 150, check = true},
+    -- { name = "Great Fireball Rune",    id = 3191,  minQuantity = 150, check = true },
+    { name = "Avalanche Rune",         id = 3161,  minQuantity = 150, check = true },
     { name = "ThunderStorm Rune",      id = 3202,  minQuantity = 0,   check = false },
     { name = "Stone Shower Rune",      id = 3175,  minQuantity = 0,   check = false },
     { name = "Ultimate Healing Rune",  id = 3160,  minQuantity = 0,   check = false },
@@ -75,7 +77,4 @@ settings.caitBox = {
     monsterCountToContinue = 5, -- Quantidade de monstros minima para continuar para o proximo waypoint
     ignoreMonsters = {}         -- Lista de monstros para ignorar
 }
--- BP para stashar no depot
-settings.idBpToStash = 49700
-
 return settings
