@@ -1,0 +1,26 @@
+{
+    "autoRecorder": 3,
+    "endLureTryWalkToCenter": false,
+    "forceWalkBlockableTilesAround": 3,
+    "ignoreLureList": [
+    ],
+    "maxLureLeave": 15,
+    "minLureStop": 15,
+    "minLureWalk": 30,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 1,
+    "specialAreas": [
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 32635,
+            "y": 31911,
+            "z": 11
+        }
+    ]
+}

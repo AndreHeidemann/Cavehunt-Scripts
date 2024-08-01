@@ -42,7 +42,7 @@ settings.distanceToBuy = {
 }
 
 -- Check to refill
-settings.MinCapacityConfig = 1200 -- Quantidade mínima de CAP para continuar a hunt
+settings.MinCapacityConfig = 1250 -- Quantidade mínima de CAP para continuar a hunt
 
 -- Lista de itens para verificar
 settings.refillItems = {

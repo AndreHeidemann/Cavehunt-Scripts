@@ -82,16 +82,12 @@ local function checkBalance(authorName, authorLevel, messageType, x, y, z, text)
             balance = tempBalance
             local charName = Player.getName()
             local limite_minimo = getMinBalanceAmountForMaker(charName)
-            -- Calcule o valor a ser enviado
-            local valorEnviar = balance * 0.9
-
             -- Verifique se o saldo menos o valor a ser enviado é menor que o limite mínimo
-            if balance - valorEnviar < limite_minimo then
-                valorEnviar = balance - limite_minimo
-                if valorEnviar <= 0 then
-                    valorEnviar = 0
-                end
+            local valorEnviar = balance - limite_minimo
+            if valorEnviar <= 0 then
+                valorEnviar = 0
             end
+
             if balance then
                 if valorEnviar > 0 then
                     Game.talk("transfer", Enums.TalkTypes.TALKTYPE_PRIVATE_PN)

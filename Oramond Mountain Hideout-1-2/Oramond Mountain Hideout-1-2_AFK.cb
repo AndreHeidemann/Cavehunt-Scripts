@@ -3,10 +3,9 @@
     "endLureTryWalkToCenter": false,
     "forceWalkBlockableTilesAround": 0,
     "ignoreLureList": [
-        "lost soul"
     ],
     "maxLureLeave": 3,
-    "minLureStop": 5,
+    "minLureStop": 6,
     "minLureWalk": 20,
     "nearLureCreatureDistance": 0,
     "nearLureCreaturesCount": 0,
@@ -34,12 +33,22 @@
         },
         {
             "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 5,
+            "x": 33618,
+            "y": 31829,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
             "height": 4,
             "toWp": 0,
             "type": 0,
-            "width": 4,
-            "x": 33617,
-            "y": 31830,
+            "width": 2,
+            "x": 33627,
+            "y": 31860,
             "z": 9
         },
         {
@@ -47,9 +56,149 @@
             "height": 1,
             "toWp": 0,
             "type": 0,
-            "width": 5,
+            "width": 8,
+            "x": 33619,
+            "y": 31856,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33626,
+            "y": 31855,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 4,
+            "toWp": 0,
+            "type": 0,
+            "width": 2,
             "x": 33618,
+            "y": 31830,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 3,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33617,
+            "y": 31831,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 2,
+            "x": 33620,
+            "y": 31830,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 3,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33620,
+            "y": 31831,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 4,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33613,
             "y": 31829,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33614,
+            "y": 31828,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33615,
+            "y": 31827,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33619,
+            "y": 31824,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33619,
+            "y": 31823,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33614,
+            "y": 31825,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33613,
+            "y": 31826,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33612,
+            "y": 31827,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33611,
+            "y": 31828,
             "z": 9
         }
     ],
@@ -1359,7 +1508,14 @@
             "z": 7
         },
         {
-            "data": "Engine.enableTargeting(false) -- AutoATK\nEngine.enableMagicShooter(false) -- Magias\nEngine.enableEquipment(false) --Equipment\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\unequipItems.lua\")\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\openDoor.lua\")\nopenDoor(20450)",
+            "data": "",
+            "waypointType": 0,
+            "x": 33666,
+            "y": 31923,
+            "z": 7
+        },
+        {
+            "data": "--Engine.enableTargeting(false) -- AutoATK\n--Engine.enableMagicShooter(false) -- Magias\nEngine.enableEquipment(false) --Equipment\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\unequipItems.lua\")\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\openDoor.lua\")\nopenDoor(20450)",
             "waypointType": 11,
             "x": 33666,
             "y": 31923,

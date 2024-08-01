@@ -18,12 +18,13 @@ function checkItemsAndCapacity(refillItems, MinCapacityConfig)
     if needsRefill then
         CaveBot.GoTo('LeaveHunt')
         Client.showMessage("Saindo da hunt para refillar.")
-        wait(1000)
+        wait(200)
     else
         CaveBot.GoTo('Hunt')
         Client.showMessage("Supply suficiente para continuar hunt.")
-        wait(1000)
+        wait(200)
     end
 end
+
 -- Chamada da função
 -- checkItemsAndCapacity(refillItems,MinCapacityConfig)

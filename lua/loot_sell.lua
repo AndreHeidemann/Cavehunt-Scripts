@@ -3,6 +3,7 @@ local loot_ids = {
     3274,
     3266,
     44602,
+    5799,  --a golden figurine
     3054,  -- silver amulet
     23529, -- ring of blue plasma
     23533, -- ring of red plasma
@@ -1267,9 +1268,15 @@ local loot_ids = {
 }
 
 local dont_sell = {
+    10385, -- Zaoan helmet
     13993, -- ornate chestplate
     13999, -- ornate legs
     14000, -- ornate shield
+    10323, -- guardian boots
+    13994, -- depth lorica
+    13995, -- depth galea
+    13996, -- depth ocrea
+    13997, -- depth calcei
 
     -- 7443, -- bullseye potion
     -- 7439, -- berserk potion
@@ -1318,8 +1325,8 @@ local dont_sell = {
     5954,  -- Demon Horn
     -- Earth
     9686,  -- Swamp Grass
-    9640,  -- Poisonous Slime
-    21194, -- Slime Heart
+    -- 9640,  -- Poisonous Slime
+    -- 21194, -- Slime Heart
     -- PROTEÇÂO ELEMENTAL
     -- Energy
     9644,  -- Wyvern Talisman
