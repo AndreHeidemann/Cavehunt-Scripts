@@ -1,114 +1,15 @@
 {
     "autoRecorder": 3,
-<<<<<<< HEAD
-    "dynamicLure": false,
-=======
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
     "endLureTryWalkToCenter": true,
     "forceWalkBlockableTilesAround": 1,
-    "ignoreLureList": [
-    ],
+    "ignoreLureList": [],
     "maxLureLeave": 1,
     "minLureStop": 3,
     "minLureWalk": 3,
     "nearLureCreatureDistance": 0,
     "nearLureCreaturesCount": 0,
     "nodeDistance": 1,
-    "specialAreas": [
-<<<<<<< HEAD
-        {
-            "fromWp": 0,
-            "height": 3,
-            "toWp": 0,
-            "type": 0,
-            "width": 1,
-            "x": 33411,
-            "y": 32586,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 3,
-            "toWp": 0,
-            "type": 0,
-            "width": 1,
-            "x": 33413,
-            "y": 32586,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 5,
-            "toWp": 0,
-            "type": 0,
-            "width": 4,
-            "x": 33429,
-            "y": 32566,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 5,
-            "toWp": 0,
-            "type": 0,
-            "width": 4,
-            "x": 33416,
-            "y": 32635,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 4,
-            "toWp": 0,
-            "type": 0,
-            "width": 5,
-            "x": 33433,
-            "y": 32645,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 2,
-            "toWp": 0,
-            "type": 0,
-            "width": 4,
-            "x": 33416,
-            "y": 32569,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 6,
-            "toWp": 0,
-            "type": 0,
-            "width": 1,
-            "x": 33415,
-            "y": 32588,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 4,
-            "toWp": 0,
-            "type": 0,
-            "width": 1,
-            "x": 33464,
-            "y": 32645,
-            "z": 8
-        },
-        {
-            "fromWp": 0,
-            "height": 4,
-            "toWp": 0,
-            "type": 0,
-            "width": 1,
-            "x": 33465,
-            "y": 32647,
-            "z": 8
-        }
-=======
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
-    ],
+    "specialAreas": [],
     "specialAreasExtendIfDrunk": false,
     "startNearestWaypoint": false,
     "waypoints": [
@@ -205,8 +106,6 @@
         },
         {
             "data": "",
-<<<<<<< HEAD
-=======
             "waypointType": 1,
             "x": 33473,
             "y": 32648,
@@ -214,7 +113,6 @@
         },
         {
             "data": "",
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "waypointType": 0,
             "x": 33470,
             "y": 32649,
@@ -250,8 +148,6 @@
         },
         {
             "data": "",
-<<<<<<< HEAD
-=======
             "waypointType": 1,
             "x": 33446,
             "y": 32647,
@@ -259,7 +155,6 @@
         },
         {
             "data": "",
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "waypointType": 0,
             "x": 33444,
             "y": 32648,
@@ -330,8 +225,6 @@
         },
         {
             "data": "",
-<<<<<<< HEAD
-=======
             "waypointType": 1,
             "x": 33414,
             "y": 32630,
@@ -339,7 +232,6 @@
         },
         {
             "data": "",
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "waypointType": 0,
             "x": 33411,
             "y": 32626,
@@ -375,8 +267,6 @@
         },
         {
             "data": "",
-<<<<<<< HEAD
-=======
             "waypointType": 1,
             "x": 33409,
             "y": 32604,
@@ -384,7 +274,6 @@
         },
         {
             "data": "",
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "waypointType": 0,
             "x": 33412,
             "y": 32600,
@@ -400,25 +289,15 @@
         {
             "data": "",
             "waypointType": 2,
-<<<<<<< HEAD
-            "x": 33413,
-            "y": 32589,
-=======
             "x": 33412,
             "y": 32588,
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "z": 8
         },
         {
             "data": "",
             "waypointType": 3,
-<<<<<<< HEAD
-            "x": 33413,
-            "y": 32589,
-=======
             "x": 33412,
             "y": 32588,
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "z": 8
         },
         {
@@ -452,22 +331,14 @@
         {
             "data": "",
             "waypointType": 2,
-<<<<<<< HEAD
-            "x": 33428,
-=======
             "x": 33427,
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "y": 32568,
             "z": 8
         },
         {
             "data": "",
             "waypointType": 3,
-<<<<<<< HEAD
-            "x": 33428,
-=======
             "x": 33427,
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "y": 32568,
             "z": 8
         },
@@ -480,8 +351,6 @@
         },
         {
             "data": "",
-<<<<<<< HEAD
-=======
             "waypointType": 1,
             "x": 33443,
             "y": 32568,
@@ -489,7 +358,6 @@
         },
         {
             "data": "",
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "waypointType": 0,
             "x": 33448,
             "y": 32566,
@@ -1506,13 +1374,8 @@
         {
             "data": "",
             "waypointType": 1,
-<<<<<<< HEAD
-            "x": 33225,
-            "y": 32462,
-=======
             "x": 33224,
             "y": 32461,
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "z": 9
         },
         {

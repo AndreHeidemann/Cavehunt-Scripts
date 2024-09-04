@@ -3,16 +3,14 @@
     "dynamicLure": false,
     "endLureTryWalkToCenter": true,
     "forceWalkBlockableTilesAround": 2,
-    "ignoreLureList": [
-    ],
+    "ignoreLureList": [],
     "maxLureLeave": 1,
     "minLureStop": 3,
     "minLureWalk": 30,
     "nearLureCreatureDistance": 0,
     "nearLureCreaturesCount": 0,
     "nodeDistance": 1,
-    "specialAreas": [
-    ],
+    "specialAreas": [],
     "specialAreasExtendIfDrunk": false,
     "startNearestWaypoint": false,
     "waypoints": [
@@ -76,22 +74,15 @@
             "data": "",
             "waypointType": 3,
             "x": 33402,
-<<<<<<< HEAD
             "y": 32388,
-=======
             "y": 32387,
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "z": 15
         },
         {
             "data": "Engine.loadScript(\"nextBox.lua\")",
             "waypointType": 11,
             "x": 33402,
-<<<<<<< HEAD
-            "y": 32388,
-=======
             "y": 32387,
->>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
             "z": 15
         },
         {
