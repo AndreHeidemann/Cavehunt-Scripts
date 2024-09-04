@@ -1,8 +1,11 @@
-local loot_ids = {
+local lootIds = {
     44608,
     3274,
     3266,
     44602,
+    43915, --weretiger trophy
+    43917, --werepanther trophy
+    43730, --weretiger tooths
     5799,  --a golden figurine
     3054,  -- silver amulet
     23529, -- ring of blue plasma
@@ -909,7 +912,7 @@ local loot_ids = {
     3050,  -- power ring
     3100,  -- ring of healing
     3006,  -- ring of the sky
-    3049,  -- stealth ring
+    -- 3049,  -- stealth ring
     3091,  -- sword ring
     3053,  -- time ring
     3004,  -- wedding ring
@@ -1267,7 +1270,8 @@ local loot_ids = {
     3301   -- crowbar
 }
 
-local dont_sell = {
+local lootIdsDontSell = {
+    22866, -- rift bow
     10385, -- Zaoan helmet
     13993, -- ornate chestplate
     13999, -- ornate legs
@@ -1277,7 +1281,9 @@ local dont_sell = {
     13995, -- depth galea
     13996, -- depth ocrea
     13997, -- depth calcei
-
+    -- 3366,  -- magic plate armor
+    3051,  -- energy ring
+    9302,  -- sacred tree amulet
     -- 7443, -- bullseye potion
     -- 7439, -- berserk potion
     7440, -- mastermind potion
@@ -1408,44 +1414,52 @@ local dont_sell = {
     23543  -- collar of green plasma
 }
 
--- Função para verificar se um item está em uma lista
-local function isInList(item, list)
-    for _, value in ipairs(list) do if value == item then return true end end
-    return false
-end
+-- Função para filtrar lootIds, removendo IDs presentes em lootIdsDontSell
+-- e verificando itemCount para garantir que não sejam nulos ou zero
+local function filterLootIds(lootIds, lootIdsDontSell)
+    -- Criar uma tabela para verificar rapidamente os IDs que não devem ser vendidos
+    local dontSellSet = {}
+    for _, id in ipairs(lootIdsDontSell) do
+        dontSellSet[id] = true
+    end
 
--- Função para vender itens
-local function sellItems()
-    local itemsSold = false
-    for _, item in ipairs(loot_ids) do
-        if Game.getItemCount(item) > 0 and not isInList(item, dont_sell) then
-            local amount = Game.getItemCount(item)
-            Client.showMessage("Selling item ID: " .. item .. ", amount: " ..
-                amount)
-            Npc.sell(item, amount, true)
-            wait(1500)
-            itemsSold = true
+    -- Filtrar lootIds removendo os IDs que estão em dontSellSet
+    -- e verificando se itemCount não é nulo ou zero
+    local filteredLootIds = {}
+    for _, id in ipairs(lootIds) do
+        if not dontSellSet[id] then
+            local itemCount = Game.getItemCount(id)
+            if itemCount and itemCount > 0 then
+                table.insert(filteredLootIds, id)
+            end
         end
     end
 
-    return itemsSold
+    return filteredLootIds
 end
 
--- Função para ações após vender todos os itens
-local function afterSellFunction()
-    Game.talk("bye", 12)
-    Client.showMessage("Finish Selling")
+local function sellItems()
+    while true do
+        local filteredLootIds = filterLootIds(lootIds, lootIdsDontSell)
+        if #filteredLootIds == 0 then
+            break
+        end
+        for _, id in ipairs(filteredLootIds) do
+            local itemCount = Game.getItemCount(id)
+            if itemCount > 0 then
+                print(id)
+                Npc.sell(id, itemCount, true)
+                wait(50)
+            end
+        end
+    end
 end
 
--- Início da sequência de venda
-Game.talk("Hi", 12)
-wait(350)
-Game.talk("Trade", 12)
-wait(350)
-
-if sellItems() then
-    wait(1000)  -- Pequena espera antes de checar novamente
-    sellItems() -- Segunda verificação de venda
+local function interactWithTrader()
+    Game.talk("Hi", 12)
+    wait(350)
+    Game.talk("Trade", 12)
+    wait(350)
+    sellItems()
 end
-
-afterSellFunction() -- Chamada final após as tentativas de venda
+interactWithTrader()

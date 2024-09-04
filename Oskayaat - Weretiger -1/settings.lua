@@ -11,13 +11,13 @@ settings.forgeIncreaseLimit = true
 settings.itemsToBuy = {
     -- HP
     { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 200,  type = 'potions' },
-    { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 500,  type = 'potions' },
+    { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 1000, type = 'potions' },
     { name = "Great Health Potion",    id = 239,   vocation = { "knight" },                                 amount = 0,    type = 'potions' },
     { name = "Strong Health Potion",   id = 236,   vocation = { "knight", "paladin" },                      amount = 0,    type = 'potions' },
     -- MANA
     { name = "Ultimate Mana Potion",   id = 23373, vocation = { "sorcerer", "druid" },                      amount = 0,    type = 'potions' },
     { name = "Great Mana Potion",      id = 238,   vocation = { "paladin", "sorcerer", "druid" },           amount = 0,    type = 'potions' },
-    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2000, type = 'potions' },
+    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 3500, type = 'potions' },
     -- SPIRIT
     { name = "Ultimate spirit Potion", id = 23374, vocation = { "paladin" },                                amount = 0,    type = 'potions' },
     { name = "Great Spirit Potion",    id = 7642,  vocation = { "paladin" },                                amount = 0,    type = 'potions' },

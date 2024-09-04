@@ -34,8 +34,6 @@ function exaniHurDirection(direction, upOrDown)
         wait(500)
         local currentPlayerPos = player:getPosition()
         if currentPlayerPos ~= initialPlayerPos then
-            print("Movimento realizado com sucesso.")
-            Client.showMessage("Você se moveu.")
             break
         end
     end

@@ -10,14 +10,14 @@ settings.forgeIncreaseLimit = true
 -- Supply a comprar
 settings.itemsToBuy = {
     -- HP
-    { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 200,  type = 'potions' },
-    { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 500,  type = 'potions' },
+    { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 400,  type = 'potions' },
+    { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 800,  type = 'potions' },
     { name = "Great Health Potion",    id = 239,   vocation = { "knight" },                                 amount = 0,    type = 'potions' },
     { name = "Strong Health Potion",   id = 236,   vocation = { "knight", "paladin" },                      amount = 0,    type = 'potions' },
     -- MANA
     { name = "Ultimate Mana Potion",   id = 23373, vocation = { "sorcerer", "druid" },                      amount = 0,    type = 'potions' },
     { name = "Great Mana Potion",      id = 238,   vocation = { "paladin", "sorcerer", "druid" },           amount = 0,    type = 'potions' },
-    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2000, type = 'potions' },
+    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2500, type = 'potions' },
     -- SPIRIT
     { name = "Ultimate spirit Potion", id = 23374, vocation = { "paladin" },                                amount = 0,    type = 'potions' },
     { name = "Great Spirit Potion",    id = 7642,  vocation = { "paladin" },                                amount = 0,    type = 'potions' },
@@ -45,20 +45,20 @@ settings.MinCapacityConfig = 800 -- Quantidade mínima de CAP para continuar a h
 -- Lista de itens para verificar
 settings.refillItems = {
     -- HP
-    { name = "Supreme Health Potion",  id = 23375, minQuantity = 50,  check = true },
-    { name = "Ultimate Health Potion", id = 7643,  minQuantity = 100, check = true },
+    { name = "Supreme Health Potion",  id = 23375, minQuantity = 40,  check = true },
+    { name = "Ultimate Health Potion", id = 7643,  minQuantity = 80,  check = true },
     { name = "Great Health Potion",    id = 239,   minQuantity = 0,   check = false },
     { name = "Strong Health Potion",   id = 236,   minQuantity = 0,   check = false },
     -- MANA
-    { name = "Ultimate Mana Potion",   id = 23373, minQuantity = 100, check = false },
+    { name = "Ultimate Mana Potion",   id = 23373, minQuantity = 0,   check = false },
     { name = "Great Mana Potion",      id = 238,   minQuantity = 0,   check = false },
-    { name = "Strong Mana Potion",     id = 237,   minQuantity = 450, check = true },
+    { name = "Strong Mana Potion",     id = 237,   minQuantity = 300, check = true },
     -- SPIRIT
     { name = "Ultimate spirit Potion", id = 23374, minQuantity = 0,   check = false },
     { name = "Great Spirit Potion",    id = 7642,  minQuantity = 0,   check = false },
     -- RUNES
     { name = "Great Fireball Rune",    id = 3191,  minQuantity = 0,   check = false },
-    { name = "Avalanche Rune",         id = 3161,  minQuantity = 150, check = false },
+    { name = "Avalanche Rune",         id = 3161,  minQuantity = 0,   check = false },
     { name = "ThunderStorm Rune",      id = 3202,  minQuantity = 0,   check = false },
     { name = "Stone Shower Rune",      id = 3175,  minQuantity = 0,   check = false },
     { name = "Ultimate Healing Rune",  id = 3160,  minQuantity = 0,   check = false },

@@ -1,0 +1,481 @@
+{
+    "autoRecorder": 3,
+    "endLureTryWalkToCenter": true,
+    "forceWalkBlockableTilesAround": 3,
+    "ignoreLureList": [
+    ],
+    "maxLureLeave": 1,
+    "minLureStop": 2,
+    "minLureWalk": 45,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 1,
+    "specialAreas": [
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Hunt",
+            "waypointType": 9,
+            "x": 33776,
+            "y": 32529,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33774,
+            "y": 32521,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33764,
+            "y": 32503,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33760,
+            "y": 32506,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33754,
+            "y": 32503,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33755,
+            "y": 32499,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33746,
+            "y": 32488,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33753,
+            "y": 32492,
+            "z": 10
+        },
+        {
+            "data": "Engine.loadScript(\"nextBox.lua\")\nCaveBot.setSafetyLureSettings(0,0,3)",
+            "waypointType": 11,
+            "x": 33753,
+            "y": 32492,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33737,
+            "y": 32483,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33730,
+            "y": 32475,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33726,
+            "y": 32475,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33718,
+            "y": 32475,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33714,
+            "y": 32475,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33710,
+            "y": 32476,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33705,
+            "y": 32477,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33702,
+            "y": 32479,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33701,
+            "y": 32482,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33700,
+            "y": 32487,
+            "z": 10
+        },
+        {
+            "data": "Engine.loadScript(\"nextBox.lua\")\nCaveBot.setSafetyLureSettings(0,0,2)",
+            "waypointType": 11,
+            "x": 33700,
+            "y": 32487,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33701,
+            "y": 32514,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33698,
+            "y": 32519,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33696,
+            "y": 32524,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33692,
+            "y": 32529,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33686,
+            "y": 32536,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33690,
+            "y": 32541,
+            "z": 10
+        },
+        {
+            "data": "Engine.loadScript(\"nextBox.lua\")",
+            "waypointType": 11,
+            "x": 33690,
+            "y": 32541,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33702,
+            "y": 32511,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33718,
+            "y": 32515,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33724,
+            "y": 32525,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33718,
+            "y": 32529,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33716,
+            "y": 32531,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33715,
+            "y": 32534,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33715,
+            "y": 32537,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33715,
+            "y": 32539,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33715,
+            "y": 32541,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33715,
+            "y": 32544,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33715,
+            "y": 32547,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33719,
+            "y": 32550,
+            "z": 10
+        },
+        {
+            "data": "Engine.loadScript(\"nextBox.lua\")\nCaveBot.setSafetyLureSettings(0,0,1)",
+            "waypointType": 11,
+            "x": 33719,
+            "y": 32550,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33710,
+            "y": 32553,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33703,
+            "y": 32560,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33701,
+            "y": 32562,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33698,
+            "y": 32571,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33692,
+            "y": 32582,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33694,
+            "y": 32587,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33701,
+            "y": 32592,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33705,
+            "y": 32594,
+            "z": 10
+        },
+        {
+            "data": "Engine.loadScript(\"nextBox.lua\")\nCaveBot.setSafetyLureSettings(0,0,2)",
+            "waypointType": 11,
+            "x": 33705,
+            "y": 32594,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33716,
+            "y": 32592,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33723,
+            "y": 32586,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33725,
+            "y": 32583,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33733,
+            "y": 32579,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33734,
+            "y": 32575,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33738,
+            "y": 32571,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33740,
+            "y": 32570,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33743,
+            "y": 32567,
+            "z": 10
+        },
+        {
+            "data": "Engine.loadScript(\"nextBox.lua\")\nCaveBot.setSafetyLureSettings(0,0,3)",
+            "waypointType": 11,
+            "x": 33743,
+            "y": 32567,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33756,
+            "y": 32555,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33768,
+            "y": 32549,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33776,
+            "y": 32547,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33781,
+            "y": 32543,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33776,
+            "y": 32540,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33773,
+            "y": 32534,
+            "z": 10
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33776,
+            "y": 32528,
+            "z": 10
+        },
+        {
+            "data": "Engine.loadScript(\"nextBox.lua\")\nCaveBot.setSafetyLureSettings(0,0,2)",
+            "waypointType": 11,
+            "x": 33776,
+            "y": 32528,
+            "z": 10
+        }
+    ]
+}

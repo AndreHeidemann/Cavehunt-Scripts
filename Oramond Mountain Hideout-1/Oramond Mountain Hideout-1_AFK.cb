@@ -432,335 +432,6 @@
         {
             "data": "",
             "waypointType": 3,
-            "x": 33633,
-            "y": 31822,
-            "z": 8
-        },
-        {
-            "data": "",
-            "waypointType": 0,
-            "x": 33633,
-            "y": 31820,
-            "z": 8
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33633,
-            "y": 31819,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33633,
-            "y": 31819,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33626,
-            "y": 31816,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33626,
-            "y": 31816,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33618,
-            "y": 31818,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33618,
-            "y": 31818,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33617,
-            "y": 31825,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33617,
-            "y": 31825,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33615,
-            "y": 31834,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33615,
-            "y": 31834,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33623,
-            "y": 31833,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33623,
-            "y": 31833,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33630,
-            "y": 31834,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33630,
-            "y": 31834,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33637,
-            "y": 31837,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33637,
-            "y": 31837,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33644,
-            "y": 31836,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33644,
-            "y": 31836,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33643,
-            "y": 31842,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33643,
-            "y": 31842,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33641,
-            "y": 31847,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33641,
-            "y": 31847,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33637,
-            "y": 31852,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33637,
-            "y": 31852,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33632,
-            "y": 31856,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33632,
-            "y": 31856,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33624,
-            "y": 31863,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33624,
-            "y": 31863,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33627,
-            "y": 31858,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33629,
-            "y": 31853,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33625,
-            "y": 31848,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33621,
-            "y": 31843,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33621,
-            "y": 31843,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33615,
-            "y": 31834,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33615,
-            "y": 31834,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33617,
-            "y": 31825,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33617,
-            "y": 31825,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33618,
-            "y": 31818,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33618,
-            "y": 31818,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33626,
-            "y": 31816,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 0,
-            "x": 33633,
-            "y": 31820,
-            "z": 9
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33633,
-            "y": 31821,
-            "z": 8
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33633,
-            "y": 31821,
-            "z": 8
-        },
-        {
-            "data": "",
-            "waypointType": 3,
-            "x": 33636,
-            "y": 31828,
-            "z": 8
-        },
-        {
-            "data": "",
-            "waypointType": 2,
-            "x": 33636,
-            "y": 31828,
-            "z": 8
-        },
-        {
-            "data": "",
-            "waypointType": 3,
             "x": 33636,
             "y": 31833,
             "z": 8
@@ -962,7 +633,7 @@
             "z": 8
         },
         {
-            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1-2/settings.lua\")()\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\checkRefill.lua\")\ncheckItemsAndCapacity(settings.refillItems,settings.MinCapacityConfig)",
+            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1/settings.lua\")()\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\checkRefill.lua\")\ncheckItemsAndCapacity(settings.refillItems,settings.MinCapacityConfig)",
             "waypointType": 11,
             "x": 33693,
             "y": 31854,
@@ -1865,7 +1536,7 @@
             "z": 11
         },
         {
-            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1-2/settings.lua\")()\ndofile(\"../Cavehunt-Scripts/lua/deliveryDust.lua\")\ndeliveryDust(settings)",
+            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1/settings.lua\")()\ndofile(\"../Cavehunt-Scripts/lua/deliveryDust.lua\")\ndeliveryDust(settings)",
             "waypointType": 11,
             "x": 32177,
             "y": 32275,
@@ -1991,7 +1662,7 @@
             "z": 4
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1-2/settings.lua\")()\nbuySupplies(onlyPotions(settings.itemsToBuy))",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1/settings.lua\")()\nbuySupplies(onlyPotions(settings.itemsToBuy))",
             "waypointType": 11,
             "x": 33618,
             "y": 31882,
@@ -2012,7 +1683,7 @@
             "z": 5
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1-2/settings.lua\")()\nbuySupplies(onlyRunes(settings.itemsToBuy))",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1/settings.lua\")()\nbuySupplies(onlyRunes(settings.itemsToBuy))",
             "waypointType": 11,
             "x": 33619,
             "y": 31882,
@@ -2110,7 +1781,7 @@
             "z": 5
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1-2/settings.lua\")()\nbuySupplies(settings.distanceToBuy)",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1/settings.lua\")()\nbuySupplies(settings.distanceToBuy)",
             "waypointType": 11,
             "x": 33632,
             "y": 31882,
@@ -2243,7 +1914,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\stashBp.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1-2/settings.lua\")()\nrunDepotStash(settings.idBpToStash)",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\stashBp.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Oramond Mountain Hideout-1/settings.lua\")()\nrunDepotStash(settings.idBpToStash)",
             "waypointType": 11,
             "x": 33628,
             "y": 31896,

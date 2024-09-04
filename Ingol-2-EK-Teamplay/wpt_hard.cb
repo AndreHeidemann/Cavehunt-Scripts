@@ -1,0 +1,208 @@
+{
+    "autoRecorder": 3,
+    "endLureTryWalkToCenter": true,
+    "forceWalkBlockableTilesAround": 3,
+    "ignoreLureList": [
+    ],
+    "maxLureLeave": 3,
+    "minLureStop": 1,
+    "minLureWalk": 30,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 1,
+    "specialAreas": [
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Hunt",
+            "waypointType": 9,
+            "x": 33757,
+            "y": 32523,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33737,
+            "y": 32498,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33754,
+            "y": 32496,
+            "z": 9
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\nextBox.lua\")\nCaveBot.setSafetyLureSettings(0, 0, 3)",
+            "waypointType": 11,
+            "x": 33754,
+            "y": 32496,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33723,
+            "y": 32498,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33700,
+            "y": 32498,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33699,
+            "y": 32507,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33708,
+            "y": 32509,
+            "z": 9
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\nextBox.lua\")\nCaveBot.setSafetyLureSettings(0, 0, 2)",
+            "waypointType": 11,
+            "x": 33708,
+            "y": 32509,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33702,
+            "y": 32551,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33708,
+            "y": 32546,
+            "z": 9
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\nextBox.lua\")",
+            "waypointType": 11,
+            "x": 33708,
+            "y": 32546,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33723,
+            "y": 32579,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33723,
+            "y": 32579,
+            "z": 9
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\nextBox.lua\")\nCaveBot.setSafetyLureSettings(0, 0, 1)",
+            "waypointType": 11,
+            "x": 33723,
+            "y": 32579,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33735,
+            "y": 32550,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33743,
+            "y": 32547,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33731,
+            "y": 32552,
+            "z": 9
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\nextBox.lua\")\nCaveBot.setSafetyLureSettings(0, 0, 2)",
+            "waypointType": 11,
+            "x": 33731,
+            "y": 32552,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33756,
+            "y": 32533,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33762,
+            "y": 32513,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33757,
+            "y": 32523,
+            "z": 9
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\nextBox.lua\")\nCaveBot.setSafetyLureSettings(0, 0, 3)",
+            "waypointType": 11,
+            "x": 33757,
+            "y": 32523,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33771,
+            "y": 32511,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33774,
+            "y": 32513,
+            "z": 9
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33794,
+            "y": 32528,
+            "z": 9
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\nextBox.lua\")\nCaveBot.setSafetyLureSettings(0, 0, 2)",
+            "waypointType": 11,
+            "x": 33794,
+            "y": 32528,
+            "z": 9
+        }
+    ]
+}

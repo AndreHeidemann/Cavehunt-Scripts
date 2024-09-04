@@ -1,0 +1,133 @@
+{
+    "autoRecorder": 3,
+    "dynamicLure": false,
+    "endLureTryWalkToCenter": true,
+    "forceWalkBlockableTilesAround": 3,
+    "ignoreLureList": [
+        "monk"
+    ],
+    "maxLureLeave": 1,
+    "minLureStop": 2,
+    "minLureWalk": 30,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 1,
+    "specialAreas": [
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Hunt",
+            "waypointType": 9,
+            "x": 33364,
+            "y": 31348,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33364,
+            "y": 31348,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33364,
+            "y": 31348,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33376,
+            "y": 31346,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33374,
+            "y": 31345,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33374,
+            "y": 31345,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33368,
+            "y": 31344,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33370,
+            "y": 31344,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33370,
+            "y": 31338,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33370,
+            "y": 31332,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33367,
+            "y": 31323,
+            "z": 5
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33367,
+            "y": 31315,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33369,
+            "y": 31316,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33367,
+            "y": 31328,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33368,
+            "y": 31330,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\openDoor.lua\")\nopenDoor(5115)",
+            "waypointType": 11,
+            "x": 33368,
+            "y": 31330,
+            "z": 7
+        }
+    ]
+}
