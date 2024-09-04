@@ -2,295 +2,381 @@
     "autoRecorder": 8,
     "endLureTryWalkToCenter": false,
     "forceWalkBlockableTilesAround": 3,
-    "ignoreLureList": [],
+    "ignoreLureList": [
+    ],
     "maxLureLeave": 15,
     "minLureStop": 15,
     "minLureWalk": 30,
     "nearLureCreatureDistance": 0,
     "nearLureCreaturesCount": 0,
     "nodeDistance": 2,
-    "specialAreas": [],
+    "specialAreas": [
+    ],
     "specialAreasExtendIfDrunk": false,
     "startNearestWaypoint": false,
     "waypoints": [
         {
             "data": "Hunt",
             "waypointType": 9,
-            "x": 33562,
-            "y": 31900,
-            "z": 7
+            "x": 33551,
+            "y": 31979,
+            "z": 13
         },
         {
             "data": "",
             "waypointType": 2,
-            "x": 33562,
-            "y": 31900,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33561,
-            "y": 31898,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33554,
-            "y": 31893,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33547,
-            "y": 31889,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33542,
-            "y": 31896,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33534,
-            "y": 31899,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33526,
-            "y": 31902,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33523,
-            "y": 31910,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33523,
-            "y": 31918,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33523,
-            "y": 31926,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33523,
-            "y": 31934,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33521,
-            "y": 31942,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33519,
-            "y": 31950,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33519,
-            "y": 31958,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33514,
-            "y": 31967,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33521,
-            "y": 31977,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33522,
-            "y": 31985,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33529,
-            "y": 31990,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33534,
-            "y": 31982,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33530,
-            "y": 31966,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33534,
-            "y": 31959,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33536,
-            "y": 31951,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33529,
-            "y": 31936,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33527,
-            "y": 31928,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33529,
-            "y": 31920,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33536,
-            "y": 31915,
-            "z": 7
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33544,
-            "y": 31912,
-            "z": 7
+            "x": 33551,
+            "y": 31979,
+            "z": 13
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 33552,
-            "y": 31909,
-            "z": 7
+            "y": 31984,
+            "z": 13
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33559,
-            "y": 31904,
-            "z": 7
+            "x": 33553,
+            "y": 31992,
+            "z": 13
         },
         {
-            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/West Oramond Quara&Devourer/settings.lua\")()\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\checkRefill.lua\")\ncheckItemsAndCapacity(settings.refillItems,settings.MinCapacityConfig)",
+            "data": "",
+            "waypointType": 1,
+            "x": 33553,
+            "y": 32000,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33553,
+            "y": 32016,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33553,
+            "y": 32024,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32032,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32040,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32048,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32056,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32064,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32072,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32080,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32088,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33555,
+            "y": 32096,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32088,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32080,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32072,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32064,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32056,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32048,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32040,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33557,
+            "y": 32032,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33554,
+            "y": 32024,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33554,
+            "y": 32016,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33554,
+            "y": 32008,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33554,
+            "y": 32000,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33554,
+            "y": 31992,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33554,
+            "y": 31984,
+            "z": 13
+        },
+        {
+            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Lower Glooth Factory South/settings.lua\")()\ndofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\checkRefill.lua\")\ncheckItemsAndCapacity(settings.refillItems,settings.MinCapacityConfig)",
             "waypointType": 11,
-            "x": 33559,
-            "y": 31904,
-            "z": 7
+            "x": 33551,
+            "y": 31979,
+            "z": 13
         },
         {
             "data": "LeaveHunt",
             "waypointType": 9,
-            "x": 33559,
-            "y": 31904,
-            "z": 7
+            "x": 33551,
+            "y": 31979,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33551,
+            "y": 31975,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 33551,
+            "y": 31971,
+            "z": 13
         },
         {
             "data": "",
             "waypointType": 3,
-            "x": 33562,
-            "y": 31900,
-            "z": 7
+            "x": 33551,
+            "y": 31967,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33551,
+            "y": 31967,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33560,
+            "y": 31965,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33566,
+            "y": 31965,
+            "z": 13
         },
         {
             "data": "",
             "waypointType": 1,
             "x": 33566,
-            "y": 31909,
-            "z": 7
+            "y": 31964,
+            "z": 12
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33568,
-            "y": 31917,
+            "x": 33559,
+            "y": 31970,
+            "z": 12
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 33558,
+            "y": 31970,
+            "z": 12
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33651,
+            "y": 31942,
             "z": 7
         },
         {
             "data": "",
             "waypointType": 0,
-            "x": 33574,
-            "y": 31916,
+            "x": 33647,
+            "y": 31946,
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\exaniHur.lua\")\nexaniHurDirection('north','up')",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\openDoor.lua\")\nopenDoor(20443)",
             "waypointType": 11,
-            "x": 33574,
-            "y": 31916,
+            "x": 33647,
+            "y": 31946,
             "z": 7
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33582,
+            "x": 33641,
+            "y": 31949,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33636,
+            "y": 31944,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33635,
+            "y": 31942,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33638,
+            "y": 31935,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33638,
+            "y": 31923,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33633,
+            "y": 31921,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33620,
             "y": 31914,
             "z": 6
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33599,
-            "y": 31915,
-            "z": 6
-        },
-        {
-            "data": "",
-            "waypointType": 1,
-            "x": 33600,
-            "y": 31903,
+            "x": 33608,
+            "y": 31905,
             "z": 6
         },
         {
@@ -819,7 +905,7 @@
             "z": 11
         },
         {
-            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/West Oramond Quara&Devourer/settings.lua\")()\ndofile(\"../Cavehunt-Scripts/lua/deliveryDust.lua\")\ndeliveryDust(settings)",
+            "data": "local scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Lower Glooth Factory South/settings.lua\")()\ndofile(\"../Cavehunt-Scripts/lua/deliveryDust.lua\")\ndeliveryDust(settings)",
             "waypointType": 11,
             "x": 32177,
             "y": 32275,
@@ -945,7 +1031,7 @@
             "z": 4
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/West Oramond Quara&Devourer/settings.lua\")()\nbuySupplies(onlyPotions(settings.itemsToBuy))",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Lower Glooth Factory South/settings.lua\")()\nbuySupplies(onlyPotions(settings.itemsToBuy))",
             "waypointType": 11,
             "x": 33618,
             "y": 31882,
@@ -966,7 +1052,7 @@
             "z": 5
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/West Oramond Quara&Devourer/settings.lua\")()\nbuySupplies(onlyRunes(settings.itemsToBuy))",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Lower Glooth Factory South/settings.lua\")()\nbuySupplies(onlyRunes(settings.itemsToBuy))",
             "waypointType": 11,
             "x": 33619,
             "y": 31882,
@@ -1064,7 +1150,7 @@
             "z": 5
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/West Oramond Quara&Devourer/settings.lua\")()\nbuySupplies(settings.distanceToBuy)",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\buyItems.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Lower Glooth Factory South/settings.lua\")()\nbuySupplies(settings.distanceToBuy)",
             "waypointType": 11,
             "x": 33632,
             "y": 31882,
@@ -1197,7 +1283,7 @@
             "z": 7
         },
         {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\stashBp.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/West Oramond Quara&Devourer/settings.lua\")()\nrunDepotStash(settings.idBpToStash)",
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\stashBp.lua\")\nlocal scriptDir = Engine.getScriptsDirectory()\nlocal settings = loadfile(scriptDir .. \"/../Cavehunt-Scripts/Lower Glooth Factory South/settings.lua\")()\nrunDepotStash(settings.idBpToStash)",
             "waypointType": 11,
             "x": 33628,
             "y": 31896,
@@ -1220,58 +1306,142 @@
         {
             "data": "",
             "waypointType": 1,
-            "x": 33622,
-            "y": 31899,
+            "x": 33630,
+            "y": 31900,
             "z": 6
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33620,
-            "y": 31904,
+            "x": 33630,
+            "y": 31908,
             "z": 6
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33605,
-            "y": 31904,
+            "x": 33633,
+            "y": 31916,
             "z": 6
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33582,
-            "y": 31914,
+            "x": 33638,
+            "y": 31923,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33638,
+            "y": 31931,
+            "z": 6
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33636,
+            "y": 31939,
             "z": 6
         },
         {
             "data": "",
             "waypointType": 0,
-            "x": 33574,
-            "y": 31915,
-            "z": 6
-        },
-        {
-            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\exaniHur.lua\")\nexaniHurDirection('south','down')",
-            "waypointType": 11,
-            "x": 33574,
-            "y": 31915,
+            "x": 33636,
+            "y": 31944,
             "z": 6
         },
         {
             "data": "",
             "waypointType": 1,
-            "x": 33570,
-            "y": 31918,
+            "x": 33636,
+            "y": 31945,
             "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33644,
+            "y": 31949,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33647,
+            "y": 31948,
+            "z": 7
+        },
+        {
+            "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\openDoor.lua\")\nopenDoor(20443)",
+            "waypointType": 11,
+            "x": 33647,
+            "y": 31948,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33650,
+            "y": 31943,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 33651,
+            "y": 31941,
+            "z": 7
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33559,
+            "y": 31970,
+            "z": 12
+        },
+        {
+            "data": "",
+            "waypointType": 0,
+            "x": 33566,
+            "y": 31965,
+            "z": 12
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33565,
+            "y": 31965,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33551,
+            "y": 31968,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 8,
+            "x": 33551,
+            "y": 31968,
+            "z": 13
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33551,
+            "y": 31972,
+            "z": 13
         },
         {
             "data": "CaveBot.GoTo('Hunt')",
             "waypointType": 11,
-            "x": 33569,
-            "y": 31917,
-            "z": 7
+            "x": 33551,
+            "y": 31972,
+            "z": 13
         }
     ]
 }

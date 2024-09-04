@@ -1,5 +1,6 @@
 {
     "autoRecorder": 3,
+    "endLureTryWalkToCenter": false,
     "forceWalkBlockableTilesAround": 3,
     "ignoreLureList": [
     ],
@@ -527,13 +528,6 @@
         },
         {
             "data": "",
-            "waypointType": 1,
-            "x": 32205,
-            "y": 32295,
-            "z": 7
-        },
-        {
-            "data": "",
             "waypointType": 0,
             "x": 32202,
             "y": 32299,
@@ -794,13 +788,6 @@
         {
             "data": "dofile(\"..\\\\Cavehunt-Scripts\\\\lua\\\\openDoor.lua\")\nopenDoor(7714)",
             "waypointType": 11,
-            "x": 33010,
-            "y": 31536,
-            "z": 10
-        },
-        {
-            "data": "",
-            "waypointType": 1,
             "x": 33010,
             "y": 31536,
             "z": 10

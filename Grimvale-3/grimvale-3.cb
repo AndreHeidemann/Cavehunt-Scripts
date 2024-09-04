@@ -1,0 +1,174 @@
+{
+    "autoRecorder": 9,
+    "endLureTryWalkToCenter": true,
+    "forceWalkBlockableTilesAround": 3,
+    "ignoreLureList": [
+        "lost soul",
+        "war wolf",
+        "fox"
+    ],
+    "maxLureLeave": 0,
+    "minLureStop": 1,
+    "minLureWalk": 30,
+    "nearLureCreatureDistance": 0,
+    "nearLureCreaturesCount": 0,
+    "nodeDistance": 2,
+    "specialAreas": [
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 1,
+            "x": 33613,
+            "y": 31893,
+            "z": 6
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 2,
+            "x": 33629,
+            "y": 31860,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 4,
+            "toWp": 0,
+            "type": 0,
+            "width": 4,
+            "x": 33617,
+            "y": 31830,
+            "z": 9
+        },
+        {
+            "fromWp": 0,
+            "height": 1,
+            "toWp": 0,
+            "type": 0,
+            "width": 5,
+            "x": 33618,
+            "y": 31829,
+            "z": 9
+        }
+    ],
+    "specialAreasExtendIfDrunk": false,
+    "startNearestWaypoint": false,
+    "waypoints": [
+        {
+            "data": "Hunt",
+            "waypointType": 9,
+            "x": 33436,
+            "y": 31563,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 1,
+            "x": 33436,
+            "y": 31563,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33462,
+            "y": 31567,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33462,
+            "y": 31567,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33484,
+            "y": 31563,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33484,
+            "y": 31563,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33476,
+            "y": 31586,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33476,
+            "y": 31586,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33467,
+            "y": 31600,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33459,
+            "y": 31600,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33439,
+            "y": 31600,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33424,
+            "y": 31598,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33433,
+            "y": 31581,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33433,
+            "y": 31581,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 2,
+            "x": 33430,
+            "y": 31570,
+            "z": 11
+        },
+        {
+            "data": "",
+            "waypointType": 3,
+            "x": 33436,
+            "y": 31563,
+            "z": 11
+        }
+    ]
+}

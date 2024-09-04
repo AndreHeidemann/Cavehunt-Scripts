@@ -10,20 +10,20 @@ settings.forgeIncreaseLimit = true
 -- Supply a comprar
 settings.itemsToBuy = {
     -- HP
-    { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 200,  type = 'potions' },
-    { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 500,  type = 'potions' },
+    -- { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 300,  type = 'potions' },
+    -- { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 500,  type = 'potions' },
     { name = "Great Health Potion",    id = 239,   vocation = { "knight" },                                 amount = 0,    type = 'potions' },
     { name = "Strong Health Potion",   id = 236,   vocation = { "knight", "paladin" },                      amount = 0,    type = 'potions' },
     -- MANA
     { name = "Ultimate Mana Potion",   id = 23373, vocation = { "sorcerer", "druid" },                      amount = 0,    type = 'potions' },
-    { name = "Great Mana Potion",      id = 238,   vocation = { "paladin", "sorcerer", "druid" },           amount = 0,    type = 'potions' },
-    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2000, type = 'potions' },
+    { name = "Great Mana Potion",      id = 238,   vocation = { "paladin", "sorcerer", "druid" },           amount = 600,  type = 'potions' },
+    -- { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2400, type = 'potions' },
     -- SPIRIT
-    { name = "Ultimate spirit Potion", id = 23374, vocation = { "paladin" },                                amount = 0,    type = 'potions' },
+    { name = "Ultimate spirit Potion", id = 23374, vocation = { "paladin" },                                amount = 1000, type = 'potions' },
     { name = "Great Spirit Potion",    id = 7642,  vocation = { "paladin" },                                amount = 0,    type = 'potions' },
     -- RUNES
     { name = "Great Fireball Rune",    id = 3191,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,    type = 'runes' },
-    { name = "Avalanche Rune",         id = 3161,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,    type = 'runes' },
+    { name = "Avalanche Rune",         id = 3161,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 900, type = 'runes' },
     { name = "ThunderStorm Rune",      id = 3202,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,    type = 'runes' },
     { name = "Stone Shower Rune",      id = 3175,  vocation = { "paladin", "sorcerer", "druid" },           amount = 0,    type = 'runes' },
     { name = "Ultimate Healing Rune",  id = 3160,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,    type = 'runes' },
@@ -34,9 +34,9 @@ settings.itemsToBuy = {
 
 settings.distanceToBuy = {
     -- DISTANCE
-    { name = "Diamond Arrow",     amount = 0, id = 35901, vocation = { "paladin" }, type = 'distance' },
-    { name = "Spectral Bolt",     amount = 0, id = 35902, vocation = { "paladin" }, type = 'distance' },
-    { name = "Crystalline Arrow", amount = 0, id = 15793, vocation = { "paladin" }, type = 'distance' },
+    { name = "Diamond Arrow",     amount = 1800, id = 35901, vocation = { "paladin" }, type = 'distance' },
+    { name = "Spectral Bolt",     amount = 0,    id = 35902, vocation = { "paladin" }, type = 'distance' },
+    { name = "Crystalline Arrow", amount = 0,    id = 15793, vocation = { "paladin" }, type = 'distance' },
 }
 
 -- Check to refill
@@ -45,26 +45,26 @@ settings.MinCapacityConfig = 800 -- Quantidade mínima de CAP para continuar a h
 -- Lista de itens para verificar
 settings.refillItems = {
     -- HP
-    { name = "Supreme Health Potion",  id = 23375, minQuantity = 50,  check = true },
-    { name = "Ultimate Health Potion", id = 7643,  minQuantity = 100, check = true },
+    -- { name = "Supreme Health Potion",  id = 23375, minQuantity = 40,  check = true },
+    -- { name = "Ultimate Health Potion", id = 7643,  minQuantity = 80,  check = true },
     { name = "Great Health Potion",    id = 239,   minQuantity = 0,   check = false },
     { name = "Strong Health Potion",   id = 236,   minQuantity = 0,   check = false },
     -- MANA
-    { name = "Ultimate Mana Potion",   id = 23373, minQuantity = 100, check = false },
-    { name = "Great Mana Potion",      id = 238,   minQuantity = 0,   check = false },
-    { name = "Strong Mana Potion",     id = 237,   minQuantity = 450, check = true },
+    { name = "Ultimate Mana Potion",   id = 23373, minQuantity = 0,   check = false },
+    { name = "Great Mana Potion",      id = 238,   minQuantity = 100, check = true }, --RP
+    -- { name = "Strong Mana Potion",     id = 237,   minQuantity = 300, check = true },
     -- SPIRIT
-    { name = "Ultimate spirit Potion", id = 23374, minQuantity = 0,   check = false },
+    { name = "Ultimate spirit Potion", id = 23374, minQuantity = 100, check = true }, --RP
     { name = "Great Spirit Potion",    id = 7642,  minQuantity = 0,   check = false },
     -- RUNES
     { name = "Great Fireball Rune",    id = 3191,  minQuantity = 0,   check = false },
-    { name = "Avalanche Rune",         id = 3161,  minQuantity = 150, check = false },
-    { name = "ThunderStorm Rune",      id = 3202,  minQuantity = 0,   check = false },
+    { name = "Avalanche Rune",         id = 3161,  minQuantity = 200, check = true }, --RP
+    -- { name = "ThunderStorm Rune",      id = 3202,  minQuantity = 200, check = true }, --RP
     { name = "Stone Shower Rune",      id = 3175,  minQuantity = 0,   check = false },
     { name = "Ultimate Healing Rune",  id = 3160,  minQuantity = 0,   check = false },
     { name = "Sudden Death Rune",      id = 3155,  minQuantity = 0,   check = false },
     -- DISTANCE
-    { name = "Diamond Arrow",          id = 35901, minQuantity = 0,   check = false },
+    { name = "Diamond Arrow",          id = 35901, minQuantity = 400, check = true }, --RP
     { name = "Spectral Bolt",          id = 35902, minQuantity = 0,   check = false },
     { name = "Crystalline Arrow",      id = 15793, minQuantity = 0,   check = false }
 }

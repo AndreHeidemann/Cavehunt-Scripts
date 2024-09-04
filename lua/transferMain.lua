@@ -32,10 +32,15 @@ local bankNames = {
     "Znozel"
 }
 local makers = {
-    { maker = "Keriel",       main = "Non Pvp Hell",          minAmount = 500000 },  --exilium
-    { maker = "Arthion",      main = "Non Pvp Again",         minAmount = 500000 },  --Arcadian
-    { maker = "Fenex",        main = "Delo Vim Derrubaraqui", minAmount = 2000000 }, --celestian
-    { maker = "Dread Reaper", main = "Non Pvp Again",         minAmount = 2000000 }  --Arcadian
+    -- { maker = "Keriel",        main = "Non Pvp Hell",  minAmount = 500000 },  --exilium
+    -- { maker = "Simps Simples", main = "Non Pvp Hell",  minAmount = 2000000 }, --exilium
+    -- { maker = "Father Hbstnk", main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    -- { maker = "Pfcity",        main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    -- { maker = "Arthion",       main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    -- { maker = "Dvneta",        main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    -- { maker = "Dread Reaper",  main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    -- { maker = "Graund",        main = "Non Pvp Again", minAmount = 2000000 }  --Arcadian
+
 }
 
 local function getMainForPlayer(playerName)

@@ -1,5 +1,6 @@
 -- Função para verificar a quantidade de itens e capacidade
-function checkItemsAndCapacity(refillItems, MinCapacityConfig)
+function checkItemsAndCapacity(refillItems, MinCapacityConfig, labelToGo)
+    labelToGo = labelToGo or "Hunt"
     local needsRefill = false
     local cap = Player.getCapacity()
 
@@ -20,7 +21,7 @@ function checkItemsAndCapacity(refillItems, MinCapacityConfig)
         Client.showMessage("Saindo da hunt para refillar.")
         wait(200)
     else
-        CaveBot.GoTo('Hunt')
+        CaveBot.GoTo(labelToGo)
         Client.showMessage("Supply suficiente para continuar hunt.")
         wait(200)
     end
