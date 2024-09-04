@@ -24,7 +24,7 @@ settings.itemsToBuy = {
     -- RUNES
     { name = "Great Fireball Rune",    id = 3191,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,    type = 'runes' },
     -- { name = "Avalanche Rune",         id = 3161,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 1400,    type = 'runes' },
-    { name = "ThunderStorm Rune",      id = 3202,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0, type = 'runes' },
+    { name = "ThunderStorm Rune",      id = 3202,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,    type = 'runes' },
     { name = "Stone Shower Rune",      id = 3175,  vocation = { "paladin", "sorcerer", "druid" },           amount = 0,    type = 'runes' },
     { name = "Ultimate Healing Rune",  id = 3160,  vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 0,    type = 'runes' },
     { name = "Sudden Death Rune",      id = 3155,  vocation = { "paladin", "sorcerer", "druid" },           amount = 0,    type = 'runes' }
@@ -35,8 +35,8 @@ settings.itemsToBuy = {
 settings.distanceToBuy = {
     -- DISTANCE
     -- { name = "Diamond Arrow",     amount = 3000, id = 35901, vocation = { "paladin" }, type = 'distance' },
-    { name = "Spectral Bolt",     amount = 0,    id = 35902, vocation = { "paladin" }, type = 'distance' },
-    { name = "Crystalline Arrow", amount = 0,    id = 15793, vocation = { "paladin" }, type = 'distance' },
+    { name = "Spectral Bolt",     amount = 0, id = 35902, vocation = { "paladin" }, type = 'distance' },
+    { name = "Crystalline Arrow", amount = 0, id = 15793, vocation = { "paladin" }, type = 'distance' },
 }
 
 -- Check to refill

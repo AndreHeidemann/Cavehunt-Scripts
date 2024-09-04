@@ -3,7 +3,10 @@ local lootIds = {
     3274,
     3266,
     44602,
+<<<<<<< HEAD
     817,   -- magma amulet
+=======
+>>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
     43915, --weretiger trophy
     43917, --werepanther trophy
     43730, --weretiger tooths
@@ -1282,7 +1285,11 @@ local lootIdsDontSell = {
     13995, -- depth galea
     13996, -- depth ocrea
     13997, -- depth calcei
+<<<<<<< HEAD
     3366,  -- magic plate armor
+=======
+    -- 3366,  -- magic plate armor
+>>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
     3051,  -- energy ring
     9302,  -- sacred tree amulet
     -- 7443, -- bullseye potion

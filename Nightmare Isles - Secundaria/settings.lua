@@ -10,14 +10,22 @@ settings.forgeIncreaseLimit = true
 -- Supply a comprar
 settings.itemsToBuy = {
     -- HP
+<<<<<<< HEAD
     { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 300,  type = 'potions' },
+=======
+    { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 200,  type = 'potions' },
+>>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
     { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 700,  type = 'potions' },
     { name = "Great Health Potion",    id = 239,   vocation = { "knight" },                                 amount = 0,    type = 'potions' },
     { name = "Strong Health Potion",   id = 236,   vocation = { "knight", "paladin" },                      amount = 0,    type = 'potions' },
     -- MANA
     { name = "Ultimate Mana Potion",   id = 23373, vocation = { "sorcerer", "druid" },                      amount = 0,    type = 'potions' },
     { name = "Great Mana Potion",      id = 238,   vocation = { "paladin", "sorcerer", "druid" },           amount = 0,    type = 'potions' },
+<<<<<<< HEAD
     { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2000, type = 'potions' },
+=======
+    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 3000, type = 'potions' },
+>>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
     -- SPIRIT
     { name = "Ultimate spirit Potion", id = 23374, vocation = { "paladin" },                                amount = 0,    type = 'potions' },
     { name = "Great Spirit Potion",    id = 7642,  vocation = { "paladin" },                                amount = 0,    type = 'potions' },
@@ -45,8 +53,13 @@ settings.MinCapacityConfig = 800 -- Quantidade mínima de CAP para continuar a h
 -- Lista de itens para verificar
 settings.refillItems = {
     -- HP
+<<<<<<< HEAD
     { name = "Supreme Health Potion",  id = 23375, minQuantity = 100,  check = true },
     { name = "Ultimate Health Potion", id = 7643,  minQuantity = 100,  check = true },
+=======
+    { name = "Supreme Health Potion",  id = 23375, minQuantity = 40,  check = true },
+    { name = "Ultimate Health Potion", id = 7643,  minQuantity = 80,  check = true },
+>>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
     { name = "Great Health Potion",    id = 239,   minQuantity = 0,   check = false },
     { name = "Strong Health Potion",   id = 236,   minQuantity = 0,   check = false },
     -- MANA

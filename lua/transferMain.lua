@@ -32,6 +32,7 @@ local bankNames = {
     "Znozel"
 }
 local makers = {
+<<<<<<< HEAD
     -- { maker = "Keriel",        main = "Non Pvp Hell",  minAmount = 500000 },  --exilium
     -- { maker = "Simps Simples", main = "Non Pvp Hell",  minAmount = 2000000 }, --exilium
     -- { maker = "Father Hbstnk", main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
@@ -40,6 +41,16 @@ local makers = {
     -- { maker = "Dvneta",        main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
     -- { maker = "Dread Reaper",  main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
     -- { maker = "Graund",        main = "Non Pvp Again", minAmount = 2000000 }  --Arcadian
+=======
+    { maker = "Keriel",        main = "Non Pvp Hell",  minAmount = 500000 },  --exilium
+    { maker = "Simps Simples", main = "Non Pvp Hell",  minAmount = 2000000 }, --exilium
+    { maker = "Father Hbstnk", main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    { maker = "Pfcity",        main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    { maker = "Arthion",       main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    { maker = "Dvneta",        main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    { maker = "Dread Reaper",  main = "Non Pvp Again", minAmount = 2000000 }, --Arcadian
+    { maker = "Graund",        main = "Non Pvp Again", minAmount = 2000000 }  --Arcadian
+>>>>>>> 28dbaa24eb0f7d8ba284ec42cb14dabf72b42081
 
 }
 
