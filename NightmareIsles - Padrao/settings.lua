@@ -17,7 +17,7 @@ settings.itemsToBuy = {
     -- MANA
     { name = "Ultimate Mana Potion",   id = 23373, vocation = { "sorcerer", "druid" },                      amount = 0,    type = 'potions' },
     -- { name = "Great Mana Potion",      id = 238,   vocation = { "paladin", "sorcerer", "druid" },           amount = 400,  type = 'potions' },
-    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2400, type = 'potions' },
+    { name = "Strong Mana Potion",     id = 237,   vocation = { "knight", "paladin", "sorcerer", "druid" }, amount = 2000, type = 'potions' },
     -- SPIRIT
     -- { name = "Ultimate spirit Potion", id = 23374, vocation = { "paladin" },                                amount = 1200, type = 'potions' },
     { name = "Great Spirit Potion",    id = 7642,  vocation = { "paladin" },                                amount = 0,    type = 'potions' },

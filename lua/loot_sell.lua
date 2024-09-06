@@ -223,7 +223,7 @@ local lootIds = {
     17846, -- leather harness
     3404,  -- leopard armor
     825,   -- lightning robe
-    3366,  -- magic plate armor
+    -- 3366,  -- magic plate armor
     826,   -- magma coat
     7463,  -- mammoth fur cape
     21166, -- mooh'tah plate
