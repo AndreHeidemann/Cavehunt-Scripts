@@ -10,8 +10,8 @@ settings.forgeIncreaseLimit = true
 -- Supply a comprar
 settings.itemsToBuy = {
     -- HP
-    { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 300,  type = 'potions' },
-    { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 500,  type = 'potions' },
+    { name = "Supreme Health Potion",  id = 23375, vocation = { "knight" },                                 amount = 200,  type = 'potions' },
+    { name = "Ultimate Health Potion", id = 7643,  vocation = { "knight" },                                 amount = 700,  type = 'potions' },
     { name = "Great Health Potion",    id = 239,   vocation = { "knight" },                                 amount = 0,    type = 'potions' },
     { name = "Strong Health Potion",   id = 236,   vocation = { "knight", "paladin" },                      amount = 0,    type = 'potions' },
     -- MANA
